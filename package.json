@@ -1,3 +1,33 @@
-/**
- * Created by Thibault on 10-9-2015.
- */
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "puzzel website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  },
+  "scripts": {
+    "test": "npm sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thibmari/puzzle.git"
+  },
+  "keywords": [
+    "puzzle",
+    "escape",
+    "room"
+  ],
+  "author": "thibault marin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thibmari/puzzle/issues"
+  },
+  "homepage": "https://github.com/thibmari/puzzle"
+}
