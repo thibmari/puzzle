@@ -193,7 +193,8 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 635px;
+float:left;
 }
 
 .parallax {
@@ -212,7 +213,7 @@ video.responsive-video {
     min-width: 100%;
     min-height: 100%;
     -webkit-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
     transform: translateX(-50%);
   }
 }

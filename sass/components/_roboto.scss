@@ -32,7 +32,12 @@
 @font-face {
     font-family: "Roboto";
     src: url("#{$roboto-font-path}Roboto-Bold.woff2") format("woff2"),
-        url("#{$roboto-font-path}Roboto-Bold.woff") format("woff"),
-        url("#{$roboto-font-path}Roboto-Bold.ttf") format("truetype");
+    url("#{$roboto-font-path}Roboto-Bold.woff") format("woff"),
+    url("#{$roboto-font-path}Roboto-Bold.ttf") format("truetype");
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "Always Together";
+    src: url("../font/always-together/always-together.otf") format("otf");
 }

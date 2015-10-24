@@ -1,0 +1,140 @@
+body {
+  background-color: #fff;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.menu-wrapper {
+  height: 110px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0)
+}
+
+.menu-slide {
+  background-color: rgba(255,255,255,1);
+  -webkit-transition:background-color 0.3s;
+  -moz-transition:background-color 0.3s;
+  transition:background-color 0.3s;
+}
+
+@media #{$small-and-down} {
+  .menu-wrapper {
+    height: 55px !important;
+  }
+}
+
+.menu {
+  text-align: center !important;
+  padding: 30px 0px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media #{$medium-and-up} {
+  .menu {
+    width: 85%;
+  }
+}
+@media #{$large-and-up} {
+  .menu {
+    width: 70%;
+  }
+}
+
+.menu__item {
+  width: 15%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  text-align: center;
+  font-family: "Always Together";
+  font-size: 2em;
+}
+
+.inset {
+  display: block;
+  @extend .orange-text, .base
+}
+
+.menu__text {
+  margin-top: -10px;
+  display: block;
+  color: #fff;
+
+
+}
+
+.inset .fa {
+  font-size: 35px;
+}
+
+.inset .fa:hover{
+  font-size: 40px;
+}
+
+.header{
+ position: relative;
+ width: 100%;
+ height: 615px;
+ overflow: hidden;
+}
+
+.slideshow-puzzlepiece {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.slideshow__item {
+  text-align: center;
+}
+
+.slideshow__title_orange {
+  font-family: "Always Together";
+  font-size: 5em;
+  margin-top: -105px;
+  @extend .orange-text, .base
+}
+
+.slideshow__title_white {
+   font-family: "Always Together";
+   margin-top: -20px;
+   font-size: 5em;
+   color: #fff;
+}
+
+.slideshow__subtext {
+  font-family: "Rockwell";
+  margin-top: -20px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.slideshow__actions {
+  width: 100%;
+  text-align: center;
+  margin-top: 90px;
+  color: #fff;
+}
+
+.slideshow__actions li {
+ display: inline-block;
+}
+
+.slideshow__actions i {
+  font-size: 30px;
+  padding: 0 5px;
+}
+.slideshow__actions  .active{
+  font-size: 35px;
+  @extend .orange-text, .base
+}
