@@ -1,140 +1,201 @@
 body {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 .menu-wrapper {
-  height: 110px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(255,255,255,0)
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 9999;
+    @media #{$medium-and-up} {
+        height: 85px;
+    }
+    @media #{$large-and-up} {
+        height: 110px;
+    }
 }
 
 .menu-slide {
-  background-color: rgba(255,255,255,1);
-  -webkit-transition:background-color 0.3s;
-  -moz-transition:background-color 0.3s;
-  transition:background-color 0.3s;
-}
-
-@media #{$small-and-down} {
-  .menu-wrapper {
-    height: 55px !important;
-  }
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .menu {
-  text-align: center !important;
-  padding: 30px 0px;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-@media #{$medium-and-up} {
-  .menu {
-    width: 85%;
-  }
-}
-@media #{$large-and-up} {
-  .menu {
-    width: 70%;
-  }
+    text-align: center !important;
+    padding: 15px 0px;
+    max-width: 1280px;
+    margin: 0 auto;
+    @media #{$medium-and-up} {
+        padding: 20px 0px;
+        width: 85%;
+    }
+    @media #{$large-and-up} {
+        padding: 30px 0px;
+        width: 70%;
+    }
 }
 
 .menu__item {
-  width: 15%;
-  display: inline-block;
-  position: relative;
-  vertical-align: top;
-  text-align: center;
-  font-family: "Always Together";
-  font-size: 2em;
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    font-family: "Always Together";
+    font-size: 2em;
 }
 
 .inset {
-  display: block;
-  @extend .orange-text, .base
+    display: block;
+    @extend .orange-text, .base
 }
 
 .menu__text {
-  margin-top: -10px;
-  display: block;
-  color: #fff;
-
-
+    margin-top: -10px;
+    display: block;
+    color: #fff;
 }
 
 .inset .fa {
-  font-size: 35px;
+    font-size: 35px;
 }
 
-.inset .fa:hover{
-  font-size: 40px;
+.inset .fa:hover {
+    font-size: 40px;
 }
 
-.header{
- position: relative;
- width: 100%;
- height: 615px;
- overflow: hidden;
+.header {
+    position: relative;
+    width: 100%;
+    height: 365px;
+    overflow: hidden;
+    @media #{$medium-and-up} {
+        height: 515px !important;
+    }
+    @media #{$large-and-up} {
+        height: 615px !important;
+    }
 }
-
+.slideshow {
+    margin-top: 10px;
+    @media #{$medium-and-up} {
+    margin-top: -40px;
+    }
+    @media #{$large-and-up} {
+        margin-top: 0px;
+    }
+}
 .slideshow-puzzlepiece {
-  width: 300px;
-  margin: 0 auto;
-  padding-top: 150px;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 75px;
+    @media #{$medium-and-up} {
+        padding-top: 150px;
+        width: 300px;
+    }
+    @media #{$large-and-up} {
+        width: 300px;
+    }
 }
+
 
 .slideshow__item {
-  text-align: center;
+    text-align: center;
 }
 
 .slideshow__title_orange {
-  font-family: "Always Together";
-  font-size: 5em;
-  margin-top: -105px;
-  @extend .orange-text, .base
+    font-family: "Always Together";
+    font-size: 3em;
+    margin-top: -55px;
+    @extend .orange-text, .base;
+    @media #{$medium-and-up} {
+        font-size: 5em;
+        margin-top: -105px;
+    }
+    @media #{$large-and-up} {
+        font-size: 5em;
+    }
 }
 
 .slideshow__title_white {
-   font-family: "Always Together";
-   margin-top: -20px;
-   font-size: 5em;
-   color: #fff;
+    font-family: "Always Together";
+    margin-top: -20px;
+    font-size: 3em;
+    color: #fff;
+    @media #{$medium-and-up} {
+        font-size: 5em;
+        margin-top: -20px;
+    }
+    @media #{$large-and-up} {
+        font-size: 5em;
+    }
 }
 
 .slideshow__subtext {
-  font-family: "Rockwell";
-  margin-top: -20px;
-  font-size: 2em;
-  color: #fff;
+    font-family: "Rockwell";
+    margin-top: -10px;
+    font-size: 1.1em;
+    padding: 0 2px;
+    color: #fff;
+    @media #{$medium-and-up} {
+        margin-top: 0px;
+        font-size: 1.5em;
+    }
+    @media #{$large-and-up} {
+        font-size: 2em;
+    }
 }
 
 .slideshow__actions {
-  width: 100%;
-  text-align: center;
-  margin-top: 90px;
-  color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    @media #{$medium-and-up} {
+        margin-top: 60px;
+    }
+    @media #{$large-and-up} {
+        margin-top: 90px;
+    }
 }
 
 .slideshow__actions li {
- display: inline-block;
+    display: inline-block;
 }
 
 .slideshow__actions i {
-  font-size: 30px;
-  padding: 0 5px;
+    font-size: 30px;
+    padding: 0 5px;
 }
-.slideshow__actions  .active{
-  font-size: 35px;
-  @extend .orange-text, .base
+
+.slideshow__actions .active {
+    font-size: 35px;
+    @extend .orange-text, .base
 }
+
+#google-map {
+    width: 100%;
+    height: 250px;
+    @media #{$medium-and-up} {
+        height: 350px;
+    }
+    @media #{$large-and-up} {
+        height: 500px;
+    }
+}
+
+
