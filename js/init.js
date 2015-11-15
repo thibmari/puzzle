@@ -4,6 +4,15 @@
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
 
+        $('.room').hover(function() {
+            $(this).children().eq(0).css("display", "none");
+            $(this).children().eq(1).css("display", "flex");
+        });
+        $('.room').mouseleave(function() {
+            $(this).children().eq(0).css("display", "flex");
+            $(this).children().eq(1).css("display", "none");
+        });
+
         $(window).scroll(function() {
             if ($(window).width() <= 601){
                 var slideMin = 55;
@@ -43,7 +52,6 @@
                 }, 300);
             }
         });
-
     }); // end of document ready
 })(jQuery); // end of jQuery name space
 
