@@ -7,93 +7,108 @@
 
     <!-- CSS  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <div class="header">
     <div class="menu-wrapper">
         <div class="menu" role="navigation">
-        <div class="menu__item">
-            <a href="#" class="">
-                <span class="inset">
-                    <i class="fa fa-puzzle-piece"></i>
-                </span>
-                <span class="menu__text hide-on-small-and-down">ABOUT</span>
-            </a>
-        </div>
-        <div class="menu__item">
-            <a href="#">
-                <span class="inset">
-                    <i class="fa fa-building"></i>
-                </span>
-                <span class="menu__text hide-on-small-and-down">ROOMS</span>
-            </a>
-        </div>
-        <div class="menu__item">
-            <a href="#" class="">
-                <span class="inset">
-                    <i class="fa fa-calendar"></i>
-                </span>
-                <span class="menu__text hide-on-small-and-down">BOOKING</span>
-            </a>
-        </div>
-        <div class="menu__item">
-            <a href="#" class="">
-                <span class="inset">
-                    <i class="fa fa-camera"></i>
-                </span>
-                <span class="menu__text hide-on-small-and-down">GALLERY</span>
-            </a>
-        </div>
-        <div class="menu__item">
-            <a href="#" class="">
-                <span class="inset">
-                    <i class="fa fa-comments"></i>
-                </span>
-                <span class="menu__text hide-on-small-and-down">FAQ</span>
-            </a>
-        </div>
-        <div class="menu__item">
-            <a href="#" class="">
-                <span class="inset">
-                    <i class="fa fa-envelope"></i>
-                </span>
-                <span class="menu__text hide-on-small-and-down">CONTACT</span>
-            </a>
-        </div>
-    </div>
-    </div>
-    <div class="slideshow">
-        <div class="parallax view1"><img src="img/bg.jpg"></div>
-        <div class="slideshow__item slideshow-puzzlepiece">
-            <img src="img/1.svg" alt="puzzle piece">
-        </div>
-        <div class="slideshow__item slideshow__title slideshow__title_orange">
-            PUZZLE
-        </div>
-        <div class="slideshow__item slideshow__title slideshow__title_white">
-            YOUR WAY OUT
-        </div>
-        <div class="slideshow__item slideshow__subtext">
-            A live escaperoom in central Ghent, unseen in Belgium!
+            <div class="menu__item">
+                <a href="#" class="">
+                    <span class="inset">
+                        <i class="fa fa-puzzle-piece"></i>
+                    </span>
+                    <span class="menu__text hide-on-small-and-down">ABOUT</span>
+                </a>
+            </div>
+            <div class="menu__item">
+                <a href="#">
+                    <span class="inset">
+                        <i class="fa fa-building"></i>
+                    </span>
+                    <span class="menu__text hide-on-small-and-down">ROOMS</span>
+                </a>
+            </div>
+            <div class="menu__item">
+                <a href="#" class="">
+                    <span class="inset">
+                        <i class="fa fa-calendar"></i>
+                    </span>
+                    <span class="menu__text hide-on-small-and-down">BOOKING</span>
+                </a>
+            </div>
+            <div class="menu__item">
+                <a href="#" class="">
+                    <span class="inset">
+                        <i class="fa fa-camera"></i>
+                    </span>
+                    <span class="menu__text hide-on-small-and-down">GALLERY</span>
+                </a>
+            </div>
+            <div class="menu__item">
+                <a href="#" class="">
+                    <span class="inset">
+                        <i class="fa fa-comments"></i>
+                    </span>
+                    <span class="menu__text hide-on-small-and-down">FAQ</span>
+                </a>
+            </div>
+            <div class="menu__item">
+                <a class="toggle-contact" href="#" class="">
+                    <span class="inset">
+                        <i class="fa fa-envelope"></i>
+                    </span>
+                    <span class="menu__text hide-on-small-and-down">CONTACT</span>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="slideshow__actions">
-        <ul>
+    <div class="slider">
+        <ul class="slides">
             <li>
-                <i class="fa fa-puzzle-piece"></i>
+                <img class="slide-img" src="img/bg.jpg">
+
+                <div class="slide-wrapper">
+                    <div class="slideshow__item slideshow-puzzlepiece">
+                        <img src="img/1.svg" alt="puzzle piece">
+                    </div>
+                    <div class="slideshow__item slideshow__title slideshow__title_orange">
+                        PUZZLE
+                    </div>
+                    <div class="slideshow__item slideshow__title slideshow__title_white">
+                        YOUR WAY OUT
+                    </div>
+                    <div class="slideshow__item slideshow__subtext">
+                        A live escaperoom in central Ghent, unseen in Belgium!
+                    </div>
+                </div>
             </li>
             <li>
-                <i class="fa fa-puzzle-piece active"></i>
+                <img src="img/bg2.jpg">
+
+                <div class="caption center-align">
+                    <h3>Find us in the heart of Ghent.</h3>
+                    <h5 class="light grey-text text-lighten-3">Challenge four friends to come over.</h5>
+                </div>
             </li>
-            <li>
-                <i class="fa fa-puzzle-piece"></i>
-            </li>
-            <li>
-                <i class="fa fa-puzzle-piece"></i>
-            </li>
+            <!--
+                               <li>
+                                   <img src="http://lorempixel.com/580/250/nature/3"> &lt;!&ndash; random image &ndash;&gt;
+                                   <div class="caption right-align">
+                                       <h3>Right Aligned Caption</h3>
+                                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                   </div>
+                               </li>
+                               <li>
+                                   <img src="http://lorempixel.com/580/250/nature/4"> &lt;!&ndash; random image &ndash;&gt;
+                                   <div class="caption center-align">
+                                       <h3>This is our big Tagline!</h3>
+                                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                   </div>
+                               </li>-->
         </ul>
     </div>
 </div>
@@ -104,31 +119,42 @@
             <div class="col s12 m4">
                 <div class="icon-block">
                     <h2 class="center">Escape PUZZLE</h2>
+
                     <div class="center orange-text">
                         <i class="fa fa-puzzle-piece"></i>
                     </div>
                     <h5 class="center">Who are we?</h5>
-                    <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+
+                    <p class="light">We did most of the heavy lifting for you to provide a default stylings that
+                        incorporate our custom components. Additionally, we refined animations and transitions to
+                        provide a smoother experience for developers.</p>
                 </div>
             </div>
             <div class="col s12 m4">
                 <div class="icon-block">
                     <h2 class="center">For who?</h2>
+
                     <div class="center orange-text">
                         <i class="fa fa-users"></i>
                     </div>
                     <h5 class="center">Work, Friends, Family,..</h5>
-                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users.</p>
+
+                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a
+                        framework that incorporates components and animations that provide more feedback to users.</p>
                 </div>
             </div>
             <div class="col s12 m4">
                 <div class="icon-block">
                     <h2 class="center">Pricing</h2>
+
                     <div class="center orange-text">
                         <i class="fa fa-money"></i>
                     </div>
                     <h5 class="center">From 20 euro a person</h5>
-                    <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+
+                    <p class="light">We have provided detailed documentation as well as specific code examples to help
+                        new users get started. We are also always open to feedback and can answer any questions a user
+                        may have about Materialize.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +164,7 @@
     <div class="room room_left col s12 m6">
         <div class="overlay overlayHead">
             <div class="helper">
-               <img src="img/the-lab.png" alt="the lab room" />
+                <img src="img/the-lab.png" alt="the lab room"/>
             </div>
         </div>
         <div class="overlay">
@@ -168,7 +194,7 @@
     <div class="room room_right col s12 m6">
         <div class="overlay overlayHead">
             <div class="helper">
-                <img src="img/the-bomb.png" alt="the bomb room" />
+                <img src="img/the-bomb.png" alt="the bomb room"/>
             </div>
         </div>
         <div class="overlay">
@@ -189,13 +215,40 @@
     <div class="section">
         <!--   Icon Section   -->
         <div class="row">
-            <h2 class="center">FAQ</h2>
-            <div class="col s12 m12">
-                <h5>Mail us</h5>
-                <p>escape@puzzle.gent</p>
-                <p>reservations@puzzle.gent</p>
+            <div class="col s12 m6 center">
+                <h5>Find the answers for your <span class="orange-text">questions.</span></h5>
             </div>
-
+            <div class="col s12 m6">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">question_answer</i>What is the minimum
+                            age to play?
+                        </div>
+                        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">question_answer</i>Can you cheat?
+                        </div>
+                        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">question_answer</i>Do we have to come
+                            early?
+                        </div>
+                        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">question_answer</i>Do I have to wear
+                            special clothes?
+                        </div>
+                        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">question_answer</i>Is it safe?</div>
+                        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -204,19 +257,25 @@
         <div class="section">
             <!--   Icon Section   -->
             <div class="row">
-                <div class="col s12 m4">
+                <div class="col s12 m4 mar-bottom">
                     <h5>Drop us a mail</h5>
+
                     <p><span class="orange-text">escape</span>@puzzle.gent</p>
+
                     <p><span class="orange-text">reservations</span>@puzzle.gent</p>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m4 mar-bottom">
                     <h5>You can find us at</h5>
+
                     <p>Blekerijstraat 75</p>
+
                     <p>9000 Ghent, BE</p>
                 </div>
                 <div class="col s12 m4">
                     <h5>Call us, we don't bite</h5>
+
                     <p>+32 478 56 11 22</p>
+
                     <p>+32 59 57 75 22</p>
                 </div>
             </div>
@@ -226,11 +285,12 @@
 
 <div class="contact-social">
     <div class="row">
-        <a target="_blank" href="https://www.facebook.com/PuzzleEscaperooms/" class="col s12 m6 social-helper facebook waves-effect waves-light">
-            <img src="img/facebook_logo.png" alt="facebook logo" />
+        <a target="_blank" href="https://www.facebook.com/PuzzleEscaperooms/"
+           class="col s12 m6 social-helper facebook waves-effect waves-light">
+            <img src="img/facebook_logo.png" alt="facebook logo"/>
         </a>
         <a target="_blank" href="" class="col s12 m6 social-helper twitter waves-effect waves-light">
-            <img src="img/twitter_logo.png" alt="facebook logo" />
+            <img src="img/twitter_logo.png" alt="facebook logo"/>
         </a>
     </div>
 </div>
@@ -259,6 +319,9 @@
                     <label for="textarea">Type your question over here</label>
                 </div>
             </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
         </form>
     </div>
 </div>
@@ -293,7 +356,7 @@
     </div>-->
     <div class="footer-copyright">
         <div class="center container">
-           Puzzle - Live Escape Room in Ghent - All rights Reserved 2015
+            Puzzle - Live Escape Room in Ghent - All rights Reserved 2015
         </div>
     </div>
 </footer>

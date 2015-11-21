@@ -2,7 +2,17 @@
     $(function(){
 
         $('.button-collapse').sideNav();
-        $('.parallax').parallax();
+       // $('.parallax').parallax();
+        $('.slider').slider({
+            full_width: true,
+            height: 550
+        });
+
+        $(".toggle-contact").click(function() {
+            $('html, body').animate({
+                scrollTop: $(".contact-info").offset().top - 75
+            }, 2000);
+        });
 
         $('.room').hover(function() {
             $(this).children().eq(0).css("display", "none");
@@ -26,7 +36,7 @@
                 var heightDepand = 110;
             }
             var scroll = $(window).scrollTop();
-            var slide = $('.parallax').height() - slideMin;
+            var slide = $('.slider').height() - slideMin;
             var $menuWrapper =  $('.menu-wrapper');
             var $menu =  $('.menu');
             var $menuText =  $('.menu__text');
