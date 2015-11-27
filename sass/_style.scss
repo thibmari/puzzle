@@ -99,10 +99,7 @@ body {
     position: absolute;
     width: 80%;
     left: 10%;
-    bottom: 45%;
-    @media #{$medium-and-up} {
-        bottom: 20%;
-    }
+    bottom: 20%;
 }
 
 .slideshow-puzzlepiece img {
@@ -208,6 +205,7 @@ body {
 }
 
 .rooms {
+    cursor: pointer;
     height: auto;
     margin-bottom: 0;
 }
@@ -381,12 +379,6 @@ footer.page-footer {
     }
 }
 
-
-
-
-
-
-
 .slider {
     position: relative;
     width: 100%;
@@ -398,7 +390,6 @@ footer.page-footer {
         height: 615px !important;
     }
 }
-
 
 .slider .slides {
     background-color: #9e9e9e;
@@ -481,3 +472,4 @@ footer.page-footer {
 .slider .indicators .indicator-item.active {
     background-color: #ff9800;
 }
+

@@ -1,46 +1,55 @@
-(function($){
-    $(function(){
-
-        $('.button-collapse').sideNav();
-       // $('.parallax').parallax();
+(function ($) {
+    $(function () {
         $('.slider').slider({
-            full_width: true,
-            height: 550
+            full_width: true
         });
 
-        $(".toggle-contact").click(function() {
+        $('.menu__item a').on('click', function (event) {
+            event.preventDefault();
+            var dest = $(this)[0].getAttribute('scrollTo'),
+                x = $('.' + dest).offset().top - 82;
+            if (!$('.menu__text').is(':visible')) {
+                x = x + 30;
+            }
             $('html, body').animate({
-                scrollTop: $(".contact-info").offset().top - 75
-            }, 2000);
+                scrollTop: x
+            }, 1500);
         });
 
-        $('.room').hover(function() {
+        $('.room').hover(function () {
             $(this).children().eq(0).css("display", "none");
             $(this).children().eq(1).css("display", "flex");
         });
-        $('.room').mouseleave(function() {
+        $('.room').mouseleave(function () {
             $(this).children().eq(0).css("display", "flex");
             $(this).children().eq(1).css("display", "none");
         });
 
-        $(window).scroll(function() {
-            if ($(window).width() <= 601){
-                var slideMin = 55;
-                var heightExpand = 55;
-                var paddingDepand = 15;
-                var heightDepand = 55;
+        $(window).scroll(function () {
+            var slideMin,
+                heightExpand,
+                paddingDepand,
+                heightDepand;
+
+            if ($('.menu__text').is(':visible')) {
+                slideMin = 110;
+                heightExpand = 90;
+                paddingDepand = 30;
+                heightDepand = 110;
             } else {
-                var slideMin = 110;
-                var heightExpand = 90;
-                var paddingDepand = 30;
-                var heightDepand = 110;
+                slideMin = 135;
+                heightExpand = 55;
+                paddingDepand = 15;
+                heightDepand = 55;
             }
+
             var scroll = $(window).scrollTop();
             var slide = $('.slider').height() - slideMin;
-            var $menuWrapper =  $('.menu-wrapper');
-            var $menu =  $('.menu');
-            var $menuText =  $('.menu__text');
-            if(scroll > slide && !($menu).is(':animated') && !($menuWrapper.hasClass('menu-slide'))) {
+            var $menuWrapper = $('.menu-wrapper');
+            var $menu = $('.menu');
+            var $menuText = $('.menu__text');
+
+            if (scroll > slide && !($menu).is(':animated') && !($menuWrapper.hasClass('menu-slide'))) {
                 $menuWrapper.addClass('menu-slide');
                 $menuWrapper.css('border-bottom', 'solid 1px #ccc');
                 $menuText.css('color', '#000');
