@@ -84,7 +84,7 @@ function initialize() {
         },
         map = new google.maps.Map(mapCanvas, mapOptions),
         puzzlePiece = {
-            url: 'img/logo.png'
+            url: 'img/logo_map.png'
         },
         marker = new google.maps.Marker({
             position: myLatLng,

@@ -7261,54 +7261,48 @@ body {
       height: 615px !important; } }
 
 .slide-wrapper {
-  position: absolute;
+  position: relative;
   width: 80%;
   left: 10%;
-  bottom: 20%; }
-
-.slideshow-puzzlepiece img {
-  background-size: 100% !important;
-  background-repeat: no-repeat;
-  background-position: center; }
+  bottom: 80%; }
 
 .slideshow-puzzlepiece {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -102px;
-  width: 200px; }
+  width: 100px; }
   @media only screen and (min-width: 601px) {
     .slideshow-puzzlepiece {
-      margin-bottom: -85px;
-      width: 250px; } }
+      width: 125px; } }
   @media only screen and (min-width: 993px) {
     .slideshow-puzzlepiece {
-      margin-bottom: -160px;
-      width: 300px; } }
+      width: 150px; } }
 
 .slideshow__item {
   text-align: center; }
 
 .slideshow__title_orange {
   font-family: "Always Together";
-  font-size: 3em; }
+  font-size: 3em;
+  margin-bottom: -25px; }
   @media only screen and (min-width: 601px) {
     .slideshow__title_orange {
       font-size: 5em;
-      margin-top: -140px; } }
+      margin-bottom: -30px; } }
   @media only screen and (min-width: 993px) {
     .slideshow__title_orange {
       font-size: 5em;
-      margin-top: 0; } }
+      margin-top: 5px;
+      margin-bottom: -30px; } }
 
 .slideshow__title_white {
   font-family: "Always Together";
   font-size: 3em;
   color: #fff;
-  margin-top: -10px; }
+  margin-bottom: -10px; }
   @media only screen and (min-width: 601px) {
     .slideshow__title_white {
-      margin-top: -25px;
-      font-size: 5em; } }
+      font-size: 5em;
+      margin-bottom: -30px; } }
 
 .slideshow__subtext {
   font-family: 'Kreon', serif;

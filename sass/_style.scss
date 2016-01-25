@@ -96,30 +96,21 @@ body {
 }
 
 .slide-wrapper {
-    position: absolute;
+    position: relative;
     width: 80%;
     left: 10%;
-    bottom: 20%;
-}
-
-.slideshow-puzzlepiece img {
-    background-size: 100% !important;
-    background-repeat: no-repeat;
-    background-position: center;
+    bottom: 80%;
 }
 
 .slideshow-puzzlepiece {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -102px;
-    width: 200px;
+    width: 100px;
     @media #{$medium-and-up} {
-        margin-bottom: -85px;
-        width: 250px;
+        width: 125px;
     }
     @media #{$large-and-up} {
-        margin-bottom: -160px;
-        width: 300px;
+        width: 150px;
     }
 }
 
@@ -130,14 +121,16 @@ body {
 .slideshow__title_orange {
     font-family: "Always Together";
     font-size: 3em;
+    margin-bottom: -25px;
     @extend .orange-text, .base;
     @media #{$medium-and-up} {
         font-size: 5em;
-        margin-top: -140px;
+        margin-bottom: -30px;
     }
     @media #{$large-and-up} {
         font-size: 5em;
-        margin-top: 0;
+        margin-top: 5px;
+        margin-bottom: -30px;
     }
 }
 
@@ -145,10 +138,10 @@ body {
     font-family: "Always Together";
     font-size: 3em;
     color: #fff;
-    margin-top: -10px;
+    margin-bottom: -10px;
     @media #{$medium-and-up} {
-        margin-top: -25px;
         font-size: 5em;
+        margin-bottom: -30px;
     }
 }
 
