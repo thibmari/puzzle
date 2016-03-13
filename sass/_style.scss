@@ -78,10 +78,6 @@ body {
     font-size: 35px;
 }
 
-.inset .fa:hover {
-    font-size: 40px;
-}
-
 .header {
     position: relative;
     width: 100%;
@@ -121,26 +117,30 @@ body {
 .slideshow__title_orange {
     font-family: "Always Together";
     font-size: 3em;
-    margin-bottom: -25px;
+    margin-top: 0;
+    line-height: 1em;
+    margin-bottom: 0px;
     @extend .orange-text, .base;
     @media #{$medium-and-up} {
         font-size: 5em;
-        margin-bottom: -30px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
     }
     @media #{$large-and-up} {
         font-size: 5em;
-        margin-top: 5px;
-        margin-bottom: -30px;
+        margin-bottom: 0px;
     }
 }
 
 .slideshow__title_white {
     font-family: "Always Together";
-    font-size: 3em;
+    font-size: 2.5em;
     color: #fff;
     margin-bottom: -10px;
     @media #{$medium-and-up} {
-        font-size: 5em;
+        font-size: 3.7em;
+        line-height: 1.2em;
         margin-bottom: -30px;
     }
 }
@@ -217,8 +217,24 @@ body {
 }
 
 .room_right {
-    background-image: url('../img/horror-girl.jpg');
-    background-size: cover;
+    background-color: #43464b;
+    text-align: center;
+    height: 350px;
+    padding-top: 15px !important;
+    @media #{$large-and-up} {
+        height: 500px;
+    }
+}
+
+.room_right h5 {
+    color: #fff;
+    text-align: left;
+}
+
+.media-row,
+.room-row {
+    text-align: center;
+    background-color: #232323;
 }
 
 .overlay {
@@ -282,7 +298,8 @@ body {
     font-size: 5em;
 }
 
-.about p {
+.about p,
+.prices p {
     text-align: center;
     @media #{$medium-and-up} {
        text-align: left;
@@ -326,13 +343,23 @@ footer.page-footer {
 
 .facebook {
     background-color: #3a579b;
+    padding: 100px 0 !important;
 }
 
+.tripadvisor {
+    background-color: #468234;
+    padding: 67px 0 !important;
+}
 .twitter {
     background-color: #00abf0;
-}
-.social-helper {
     padding: 100px 0 !important;
+}
+
+.instagram {
+    padding: 34px 0 !important;
+}
+
+.social-helper {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -466,3 +493,95 @@ footer.page-footer {
     background-color: #ff9800;
 }
 
+.big-title {
+    font-family: "Always Together";
+    font-size: 3.5em;
+    @extend .orange-text, .base;
+}
+
+.prices .fa {
+    font-size: 5em;
+}
+
+.pricebox {
+    height: 150px;
+    background-color: #ff9800;
+    padding: 10px;
+    margin-bottom: 20px;
+    @media #{$medium-and-up} {
+        margin-bottom: 0;
+    }
+}
+
+.call-to-action {
+    height: 50px;
+    position: fixed;
+    font-family: "Always Together";
+    background-color: #ff9800;
+    color: #fff;
+    text-align: center;
+    bottom: -1px;
+    font-size: 3em;
+    width: 100%;
+    z-index: 9999;
+    @media #{$medium-and-up} {
+        display: none;
+    }
+}
+
+
+
+.pricebox2 {
+    height: 110px;
+    width: 250px;
+    text-align: center;
+    background-color: #ff9800;
+    padding: 10px;
+    margin: 40px auto 0 auto;
+    display:none;
+    @media #{$medium-and-up} {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
+.fff:hover .pricebox,
+.fff:hover .pricebox2 {
+    background-color: #fff;
+    color: #000;
+    border: 10px solid #232323;
+    padding: 0;
+}
+
+.fff:hover .subbox3 {
+    color: #000;
+}
+.subbox {
+      background-color: #fff;
+      height: 40px;
+      padding: 7px;
+      font-family: "Always Together";
+      color: #000;
+      font-size: 21px;
+}
+
+.subbox2 {
+    background-color: #232323;
+    height: 50px;
+    padding: 7px;
+    font-family: "Always Together";
+    color: #fff;
+    font-size: 34px;
+}
+
+.subbox3 {
+    height: 30px;
+    padding: 7px;
+    font-family: "Always Together";
+    color: #fff;
+    font-size: 30px;
+    @media #{$medium-and-up} {
+        font-size: 30px;
+    }
+
+}
