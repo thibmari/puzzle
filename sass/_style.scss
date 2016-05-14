@@ -583,5 +583,12 @@ footer.page-footer {
     @media #{$medium-and-up} {
         font-size: 30px;
     }
+}
 
+#bookeoStartMobile {
+    width: 250px !important;
+    margin: 0 auto !important;
+    background-color: #ff9800 !important;
+    border: 0 !important;
+    font-family: "Always Together" !important;
 }
