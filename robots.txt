@@ -1,0 +1,3 @@
+Sitemap: http://www.puzzle.gent/sitemap.xml
+User-agent:*
+Disallow:

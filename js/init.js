@@ -30,17 +30,6 @@
             }, 1500);
         });
 
-
-
-        $('.room').hover(function () {
-            $(this).children().eq(0).css("display", "none");
-            $(this).children().eq(1).css("display", "flex");
-        });
-        $('.room').mouseleave(function () {
-            $(this).children().eq(0).css("display", "flex");
-            $(this).children().eq(1).css("display", "none");
-        });
-
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
                 $('.scrollToTop').fadeIn();
