@@ -1,0 +1,608 @@
+@font-face {
+  font-family: "Always Together";
+  src: url('../font/always-together/always-together.otf');
+}
+
+body {
+  background-color: #fff;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.menu-wrapper {
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 9996;
+  @media #{$medium-and-up} {
+    height: 85px;
+  }
+  @media #{$large-and-up} {
+    height: 110px;
+  }
+}
+
+.menu-slide {
+  background-color: rgba(255, 255, 255, 1);
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.menu {
+  text-align: center !important;
+  padding: 15px 0px;
+  max-width: 1280px;
+  margin: 0 auto;
+  @media #{$medium-and-up} {
+    padding: 20px 0px;
+    width: 85%;
+  }
+  @media #{$large-and-up} {
+    padding: 30px 0px;
+    width: 70%;
+  }
+}
+
+.menu__item {
+  width: 15%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  text-align: center;
+  font-family: "Always Together";
+  font-size: 2em;
+}
+
+.inset {
+  display: block;
+  @extend .orange-text
+}
+
+.menu__text {
+  margin-top: -10px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.inset .fa {
+  font-size: 35px;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 365px;
+  overflow: hidden;
+  @media #{$medium-and-up} {
+    height: 515px !important;
+  }
+  @media #{$large-and-up} {
+    height: 615px !important;
+  }
+}
+
+.slide-wrapper {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  bottom: 80%;
+}
+
+.slideshow-puzzlepiece {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  @media #{$medium-and-up} {
+    width: 125px;
+  }
+  @media #{$large-and-up} {
+    width: 150px;
+  }
+}
+
+.slideshow__item {
+  text-align: center;
+}
+
+.slideshow__title_orange h1 {
+  font-family: "Always Together";
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-top: 0;
+  line-height: 1em;
+  margin-bottom: 0px;
+  @extend .orange-text;
+  @media #{$medium-and-up} {
+    font-size: 5em;
+    margin-bottom: 0px;
+    margin-top: 15px;
+
+  }
+  @media #{$large-and-up} {
+    font-size: 5em;
+    margin-bottom: 0px;
+  }
+}
+
+.slideshow__title_white {
+  font-family: "Always Together";
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: -10px;
+  @media #{$medium-and-up} {
+    font-size: 3.2em;
+    line-height: 1em;
+    margin-bottom: -30px;
+  }
+  @media #{$large-and-up} {
+    font-size: 3.7em;
+    line-height: 1.2em;
+  }
+}
+
+.slideshow__subtext {
+  font-family: 'Kreon', serif;
+  font-size: 1.1em;
+  padding: 0 2px;
+  color: #fff;
+  @media #{$medium-and-up} {
+    font-size: 1.4em;
+  }
+  @media #{$large-and-up} {
+    font-size: 2em;
+  }
+}
+
+.slideshow__actions {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  @media #{$medium-and-up} {
+    margin-top: 60px;
+  }
+  @media #{$large-and-up} {
+    margin-top: 90px;
+  }
+}
+
+.slideshow__actions li {
+  display: inline-block;
+}
+
+.slideshow__actions i {
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+.slideshow__actions .active {
+  font-size: 35px;
+  @extend .orange-text;
+}
+
+#google-map {
+  width: 100%;
+  height: 250px;
+  @media #{$medium-and-up} {
+    height: 350px;
+  }
+  @media #{$large-and-up} {
+    height: 500px;
+  }
+}
+
+.room_right {
+  margin-top: 20px;
+  @media #{$medium-and-up} {
+    max-width: 450px;
+    margin-left: 20% !important;
+    margin-top: 0px;
+  }
+  @media #{$large-and-up} {
+    margin-left: 0 !important;
+    margin-top: 0px;
+    max-width: 450px;
+  }
+}
+
+.room {
+  width: 100%;
+  text-align: center;
+  @media #{$medium-and-up} {
+    text-align: center;
+  }
+  @media #{$large-and-up} {
+    text-align: left;
+  }
+}
+
+.media-row,
+.room-row {
+  color: #fff;
+}
+
+.rooms {
+  background-color: #232323;
+}
+
+.overlay h2,
+.faq i {
+  @extend .orange-text
+}
+
+.faq h5 {
+  padding-bottom: 15px;
+}
+
+.about i {
+  font-size: 4em;
+}
+
+.about i:first-child {
+  font-size: 5em;
+}
+
+.about p,
+.prices p {
+  text-align: center;
+  @media #{$medium-and-up} {
+    text-align: left;
+  }
+}
+
+.contact {
+  color: #fff;
+  padding: 50px 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.contact-info {
+  background-color: #232323;
+}
+
+.contact-form {
+  background-color: #43464b;
+}
+
+footer.page-footer {
+  padding-top: 0;
+  color: #fff;
+}
+
+.contact-info h5 {
+  font-family: "Always Together";
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  line-height: 10px;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.facebook {
+  background-color: #3a579b;
+  padding: 100px 0 !important;
+}
+
+.tripadvisor {
+  background-color: #468234;
+  padding: 67px 0 !important;
+}
+
+.twitter {
+  background-color: #00abf0;
+  padding: 100px 0 !important;
+}
+
+.instagram {
+  padding: 34px 0 !important;
+}
+
+.social-helper {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field #textarea:focus + label,
+.input-field .prefix.active {
+  color: #ff9700;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field #textarea:focus {
+  border-bottom: 1px solid #ff9700;
+  box-shadow: 0 1px 0 0 #ff9700;
+}
+
+.move-links {
+  margin-left: -8px;
+}
+
+.contact-form .btn {
+  margin-left: 0;
+  background-color: #ff9700;
+}
+
+.mar-bottom {
+  margin-bottom: 20px;
+  @media #{$large-and-up} {
+    margin-bottom: 0;
+  }
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 365px;
+  @media #{$medium-and-up} {
+    height: 515px !important;
+  }
+  @media #{$large-and-up} {
+    height: 615px !important;
+  }
+}
+
+.slider .slides {
+  background-color: #9e9e9e;
+  margin: 0;
+  height: 365px;
+  @media #{$medium-and-up} {
+    height: 515px !important;
+  }
+  @media #{$large-and-up} {
+    height: 615px !important;
+  }
+}
+
+.slider .slides li {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  @media #{$medium-and-up} {
+    top: 25%;
+  }
+}
+
+.caption h3 {
+  color: #ff9700;
+}
+
+.slider .slides li .caption p {
+  color: #e0e0e0;
+}
+
+.slider .slides li.active {
+  z-index: 2;
+}
+
+.slider .indicators {
+  display: none;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  z-index: 9998;
+  margin: 0;
+  @media #{$medium-and-up} {
+    display: block;
+  }
+}
+
+.slider .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 12px;
+  background-color: #e0e0e0;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ff9800;
+}
+
+.big-title {
+  font-family: "Always Together";
+  font-size: 3em;
+  line-height: 1.5em;
+  @extend .orange-text;
+  @media #{$medium-and-up} {
+    font-size: 4em;
+    line-height: 1em;
+  }
+}
+
+.prices .fa {
+  font-size: 5em;
+}
+
+.pricebox {
+  height: 150px;
+  background-color: #ff9800;
+  padding: 10px;
+  margin-bottom: 20px;
+  @media #{$medium-and-up} {
+    margin-bottom: 10px;
+  }
+}
+
+.call-to-action {
+  height: 50px;
+  position: fixed;
+  font-family: "Always Together";
+  background-color: #ff9800;
+  color: #fff;
+  text-align: center;
+  bottom: -1px;
+  font-size: 3em;
+  width: 100%;
+  z-index: 9999;
+  @media #{$medium-and-up} {
+    display: none;
+  }
+}
+
+.price-box {
+  background-color: #232323;
+  padding: 25px 0 15px 0;
+}
+
+.pricebox2 {
+  height: 110px;
+  width: 250px;
+  text-align: center;
+  background-color: #ff9800;
+  padding: 10px;
+  margin: 40px auto 0 auto;
+  display: none;
+  @media #{$medium-and-up} {
+    display: block;
+    margin-bottom: 0;
+  }
+}
+
+.fff:hover .pricebox,
+.fff:hover .pricebox2 {
+  background-color: #fff;
+  color: #000;
+  border: 10px solid #232323;
+  padding: 0;
+}
+
+.fff:hover .subbox3 {
+  color: #000;
+}
+
+.subbox {
+  background-color: #fff;
+  height: 40px;
+  padding: 7px;
+  font-family: "Always Together";
+  color: #000;
+  font-size: 21px;
+}
+
+.subbox2 {
+  background-color: #232323;
+  height: 50px;
+  padding: 7px;
+  font-family: "Always Together";
+  color: #fff;
+  font-size: 34px;
+}
+
+.subbox3 {
+  height: 30px;
+  padding: 7px;
+  font-family: "Always Together";
+  color: #fff;
+  font-size: 30px;
+  @media #{$medium-and-up} {
+    font-size: 30px;
+  }
+}
+
+#bookeoStartMobile {
+  width: 250px !important;
+  margin: 0 auto !important;
+  background-color: #ff9800 !important;
+  border: 0 !important;
+  font-family: "Always Together" !important;
+}
+
+.scrollToTop {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  bottom: 55px;
+  right: 40px;
+  display: none;
+  background: #ff9800 no-repeat 0px 20px;
+}
+
+.scrollToTop:hover {
+  text-decoration: none;
+}
+
+.scrollToTop .inset {
+  color: #43464b !important;
+}
+
+.inset .fa-arrow-up {
+  font-size: 27px;
+}
+
+.languages {
+  background-color: #fff;
+  position: fixed;
+  top: 10px;
+  color: #000 !important;
+  right: 10px;
+  z-index: 9999;
+  padding: 5px;
+  border: 1px solid #232323;
+}
+
+.footer-copyright h2 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+}
+
+.big-title a {
+  color: #fff;
+}

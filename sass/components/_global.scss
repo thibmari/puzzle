@@ -193,7 +193,8 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 635px;
+float:left;
 }
 
 .parallax {
@@ -212,7 +213,7 @@ video.responsive-video {
     min-width: 100%;
     min-height: 100%;
     -webkit-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
     transform: translateX(-50%);
   }
 }
@@ -303,7 +304,6 @@ ul.staggered-list li {
 
 // Footer
 footer.page-footer {
-  margin-top: 20px;
   padding-top: 20px;
   background-color: $footer-bg-color;
 
@@ -566,7 +566,6 @@ span.badge {
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px;
     height: 0;
     overflow: hidden;
     &.no-controls {
@@ -585,7 +584,7 @@ span.badge {
 // Progress Bar
 .progress {
     position: relative;
-    height: 4px;
+    height: 15px;
     display: block;
     width: 100%;
     background-color: lighten($progress-bar-color, 40%);

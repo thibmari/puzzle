@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Always Together";
+  src: url('always-together.otf');
+}
+.fb-like {
+  width: 250px;
+}
+body {
+  text-align: center;
+  background: url(bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-family: "Always Together";
+  line-height: 40px;
+  font-size: 140px;
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  margin: 80px 0 50px 0;
+}
+h1:first-child {
+  color: #ff9800;
+}
+p {
+  font-family: 'Kreon';
+  color: #fff;
+  font-size: 2em;
+}
