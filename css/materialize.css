@@ -7133,7 +7133,7 @@ body {
   left: 0;
   width: 100%;
   background-color: rgba(255, 255, 255, 0);
-  z-index: 9999; }
+  z-index: 9996; }
   @media only screen and (min-width: 601px) {
     .menu-wrapper {
       height: 85px; } }
@@ -7176,6 +7176,7 @@ body {
 .menu__text {
   margin-top: -10px;
   display: block;
+  text-transform: uppercase;
   color: #fff; }
 
 .inset .fa {
@@ -7215,6 +7216,7 @@ body {
 
 .slideshow__title_orange h1 {
   font-family: "Always Together";
+  text-transform: uppercase;
   font-size: 3em;
   margin-top: 0;
   line-height: 1em;
@@ -7236,9 +7238,13 @@ body {
   margin-bottom: -10px; }
   @media only screen and (min-width: 601px) {
     .slideshow__title_white {
-      font-size: 3.7em;
-      line-height: 1.2em;
+      font-size: 3.2em;
+      line-height: 1em;
       margin-bottom: -30px; } }
+  @media only screen and (min-width: 993px) {
+    .slideshow__title_white {
+      font-size: 3.7em;
+      line-height: 1.2em; } }
 
 .slideshow__subtext {
   font-family: 'Kreon', serif;
@@ -7498,7 +7504,7 @@ footer.page-footer {
   @media only screen and (min-width: 601px) {
     .big-title {
       font-size: 4em;
-      line-height: 2em; } }
+      line-height: 1em; } }
 
 .prices .fa {
   font-size: 5em; }
@@ -7610,5 +7616,22 @@ footer.page-footer {
 
 .inset .fa-arrow-up {
   font-size: 27px; }
+
+.languages {
+  background-color: #fff;
+  position: fixed;
+  top: 10px;
+  color: #000 !important;
+  right: 10px;
+  z-index: 9999;
+  padding: 5px;
+  border: 1px solid #232323; }
+
+.footer-copyright h2 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif; }
+
+.big-title a {
+  color: #fff; }
 
 /*# sourceMappingURL=maps/materialize.css.map */

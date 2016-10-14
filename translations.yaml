@@ -1,0 +1,143 @@
+en:
+  menu:
+      about: about
+      rooms: rooms
+      prices: prices
+      booking: booking
+      faq: faq
+      contact: contact
+      book_now: BOOK NOW
+  trivial:
+      persons: persons
+      mail: Drop us a mail
+      location: You can find us at
+      call: Call us, we don't bite
+      contact: <span class="orange-text">Hello. </span>How can we help you?
+      name: Name
+      vraag: Type your question over here
+      submit: submit
+      ghent: Ghent
+  slogans:
+      slogan1: The challenge escape in one hour from our escaperooms!
+      slogan2: Arrange a team from 2 to 6 persons, and game up!!
+      slogan3: The challenge escape in one hour from our escaperooms!
+      slogan4: The challenge escape in one hour from our escaperooms!
+      slogan5: The challenge escape in one hour from our escaperooms!
+  about:
+      what:
+        top: WHAT?
+        middle: A real life action game
+        bottom: Puzzle Escaperoom challenges your team (2 to 7 people) to escape from a locked room. Each room has its story and its secrets. You will have to find your way out the Escape Room through teamwork, out-of-the box thinking and creativity. You will only get 60 minutes to unlock the codes, find the hidden clues and put all the pieces of the puzzle together. Are you ready to crack the code? Do you dare to take this challenge? What are you waiting for ?!
+      where:
+        top: WHERE?
+        middle: Ghent, Belgium
+        bottom: Puzzle Escaperooms is located within the heart of the beautiful city center of Ghent. You can find us at the <a href="http://maps.google.com/?q=Blekerijstraat 75, 9000 Gent, Belgium" target="_blank">Blekerijstraat 75, 9000 Gent</a>. It is easy accessible by public transport, on foot or by bicycle. Trainstation “Ghent Dampoort” is only 10 minutes walking. You can park in the building for free.
+      who:
+        top: WHO?
+        middle: Friends, Students, Business
+        bottom: Puzzle is suitable for all ages and skill sets. An amorous couple, a bunch of friends, student groups or team buildings. The Escape Room is created in such a way that each group will find its appetite. You get to know each other better, individually and in team. Contestants will show their true colours and their level of patience, but most importantly this is all happening in a fun and exciting environment!
+  rooms:
+      room1:
+        title: the russian lab
+        slogan: <p class="white-text">After opening the <span class="orange-text">Russian Lab</span>, we are excited to inform you that our second room the <span class="orange-text">Chocolate Factory</span> wil open it's doors soon.</span></p>
+        text: The Lab is situated in the heart of Ghent. During the Cold War there was a secret Russian Lab, a myth according to many. Until now. A terrorist organization has reopened the Lab and produces a poisonous gas, determined to destroy the city of Ghent. Recruited as spies of the European Secret Service you have the task to break into the lab and create an antidote. You have 60 minutes to save the city. Do you dare to take this challenge?
+  prices:
+      friends:
+        title: Friends, Family & Tourists
+        text: Looking for some entertainment? Going to the movies is so last year! Our EscapeRoom is an excellent way to spend some thrilling funtime with your family and friends.
+      students:
+        title: Students
+        text: You get a discount 20% discount. Every first Thursday of the month we have student promotions, check our Facebook page for monthly offers!
+      business:
+        title: Business Teambuilding
+        text: Tired of boring team building events in the city? Puzzle Escaperooms provides challenging scenarios packed for your team. Our Escaperooms will provide a unique and fun event for corporate entertainment.
+  faq:
+      title: <h5>Find the answers to your <span class="orange-text">questions.</span></h5>
+      faq1:
+        question: Do you get help?
+        answer: Additional tips and hints are available, but we will never give the complete solution. The aim is to unravel the mystery together, to think as a team about how to break the code and escape in time.
+      faq2:
+        question: Is it frightening?
+        answer: Our rooms are transformed according to the theme. Creating a total experience is our priority, but we do not intend to scare the wits out of you. It’s not a horror scene, nor claustrophobic, but you are of course in a locked room. If the tension is getting you too much, there is always a ‘panic button’ to leave the game.
+      faq3:
+        question: When do we need to be present?
+        answer: We ask the participants to be present 15 minutes in advance. Please respect our punctual timing, so we can deliver the best experience to all participants. If you notice a delay, please contact us immediately.
+      faq4:
+        question: It is for all ages?
+        answer: Our Escape Room is developed to stimulate creativity and problem-solving thinking. Due to the challenging level, we recommend the game from the age of 12. Children under twelve must be accompanied by an adult.
+      faq5:
+        question: Is there a language barrier?
+        answer: Our Escaperoom is designed in English for an international audience. There is no other specific language required for breaking the codes and solving the puzzles.
+
+nl:
+  menu:
+      about: over
+      rooms: kamers
+      prices: prijzen
+      booking: boeken
+      faq: faq
+      contact: contact
+      book_now: BOEK NU
+  trivial:
+      persons: personen
+      mail: Zend ons een email
+      location: Hier kan je ons vinden
+      call: Bel ons, wij bijten niet
+      contact: <span class="orange-text">Hallo. </span>Hoe kunnen wij je helpen?
+      name: Naam
+      vraag: Hier kan je jouw vraag stellen
+      submit: Verzenden
+      ghent: Gent
+  slogans:
+      slogan1: De uitdaging, binnen het uur ontsnappen uit onze escaperooms!
+      slogan2: Stel jouw team samen van 2 tot 7 personen en ga de uitdaging aan!
+      slogan3: Is jouw groep groter dan 7 personen? Geen probleem! Contacteer ons voor een spel op maat!
+      slogan4: Teambuilding op maat! Vraag naar info op <a href="mailto:escape@puzzle.gent?Subject=Teambuilding" target="_top">escape@puzzle.gent</a>
+      slogan5: Vrijgezellenactiviteit? Vraag naar info op <a href="mailto:someone@example.com?Subject=Vrijgezellen" target="_top">escape@puzzle.gent</a>
+  about:
+      what:
+        top: WAT?
+        middle: Een levensecht actie spel
+        bottom: Puzzle Escaperoom daagt jouw team uit (2 tot 7 personen) om te ontsnappen uit een gesloten kamer. Elke kamer heeft zo zijn verhalen en geheimen. Je zal een weg moeten vinden uit onze escaperooms aan de hand van team werk, out-of-the box denken en creativiteit. Je hebt slechts 60 minuten om alle codes te ontcijferen, het vinden van aanwijzingen en om alle stukken van de puzzle samen te brengen. Ben je klaar om de code te kraken? Durf je deze uitdaging aan? Waar wacht je nog op?!
+      where:
+        top: WAAR?
+        middle: Gent, België
+        bottom: In het hartje van de prachtige stad Gent kan je Puzzle Escaperooms vinden. Je kan ons vinden bij <a href="http://maps.google.com/?q=Blekerijstraat 75, 9000 Gent, Belgium" target="_blank">Blekerijstraat 75, 9000 Gent</a>. Gemakkelijk toegankelijk met het openbaar vervoer, per fiets of te voet. Station “Gent Dampoort” is slechts 10 minuten wandelen bij ons vandaan. Je kan tevens gratis parkeren in ons gebouw.
+      who:
+        top: WIE?
+        middle: Vrienden, Studenten, Bedrijven
+        bottom: Puzzle is geschikt voor mensen van alle leeftijden en capaciteiten. Een verliefd koppel, een groep vrienden, studentenverenigingen en teambuildings. Onze Escaperooms zijn zo ontworpen dat die voor alle doelgroepen geschikt zijn. Je leert elkaar beter kennen, zowel individueel als in team. Deelnemers zullen getest worden op hoeveel geduld ze hebben en zullen zo hun ware kant laten zien. Het belangrijkste is echter dat dit alles gebeurt in een toffe en uitdagende omgeving!
+  rooms:
+        room1:
+          title: Het Russische Lab
+          slogan: <p class="white-text">Na de openening van het <span class="orange-text">Russische Lab</span>, delen we met trots mee dat onze tweede kamer de <span class="orange-text">Chocolade Fabriek</span> binnenkort in gebruik zal worden genomen.</span></p>
+          text: Het lab is gesitueerd in het hartje van Gent. Tijdens de koude oorlog was er ergens een geheim Russisch Lab, volgens een welbekende mythe. Tot nu. Een terroristische organisatie heeft het Lab opnieuw geopend om daar een giftig gas te produceren, met als doel Gent te vernietigen. Als onderdeel van de Europese geheime dienst zullen jullie als spionnen moeten inbreken in het lab om een antidosis te ontwikkelen. Jullie hebben 60 minuten om de stad te redden. Durf je deze uitdaging aan?
+  prices:
+        friends:
+          title: Vrienden, Familie & Toeristen
+          text: Ben je op zoek naar een toffe activiteit? Naar de film gaan is zo niet meer van deze tijd! Onze EscapeRooms zijn de perfecte manier om een leuke spannende tijd te beleven met je familie en vrienden!
+        students:
+          title: Studenten
+          text: Studenten krijgen een korting van 20%. Elke eerste donderdag van de maand hebben we promaties, check onze Facebook pagina voor meer info!
+        business:
+          title: Business Teambuilding
+          text: Ben je het ook beu om saaie teambuilding activiteiten te doen in Gent? Puzzle Escaperooms voorziet een pakket van uitdagende activiteiten voor jouw team. Onze Escaperooms voorzien unieke en leuk evenementen voor een toffe bedrijfsuitstap.
+  faq:
+        title: <h5>Vind hier de antwoorden op je <span class="orange-text">vragen.</span></h5>
+        faq1:
+          question: Krijg je hulp?
+          answer: Additional tips and hints are available, but we will never give the complete solution. The aim is to unravel the mystery together, to think as a team about how to break the code and escape in time.
+        faq2:
+          question: Is het bangelijk?
+          answer: Our rooms are transformed according to the theme. Creating a total experience is our priority, but we do not intend to scare the wits out of you. It’s not a horror scene, nor claustrophobic, but you are of course in a locked room. If the tension is getting you too much, there is always a ‘panic button’ to leave the game.
+        faq3:
+          question: Wanneer moeten we aanwezig zijn?
+          answer: We ask the participants to be present 15 minutes in advance. Please respect our punctual timing, so we can deliver the best experience to all participants. If you notice a delay, please contact us immediately.
+        faq4:
+          question: Is het voor alle leeftijden?
+          answer: Our Escape Room is developed to stimulate creativity and problem-solving thinking. Due to the challenging level, we recommend the game from the age of 12. Children under twelve must be accompanied by an adult.
+        faq5:
+          question: Is er een taalgrens?
+          answer: Our Escaperoom is designed in English for an international audience. There is no other specific language required for breaking the codes and solving the puzzles.
+
+
