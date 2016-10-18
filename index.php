@@ -1,14 +1,12 @@
 <?php
     include 'translations.php';
-    require_once "spyc.php";
-    $languages = Spyc::YAMLLoad('translations.yaml');
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Puzzle Ghent - Escape Rooms</title>
+    <title>Puzzle <?php echo $languages[$language]['trivial']['ghent']; ?> - Escape Rooms</title>
     <meta name="description" content="Puzzle EscapeRooms Ghent is the most thrilling/adventurous teambuilding activity you can find in Gent.">
     <!-- CSS  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -60,7 +58,8 @@
 </a>
 <div class="header">
     <div class="menu-wrapper">
-        <div class="menu" role="navigation">
+        <a href="#" data-activates="mobile-menu" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
+        <div class="menu hide-on-med-and-down" role="navigation">
             <div class="menu__item">
                 <a href="#" scrollTo="about">
                     <span class="inset">
@@ -146,6 +145,62 @@
                 </a>
             </div>
         </div>
+        <ul class="side-nav" id="mobile-menu">
+            <li>
+                <a href="#" scrollTo="about">
+                    <?php
+                    if (isset($languages[$language]['menu']['about'])) {
+                        echo $languages[$language]['menu']['about'];
+                    }
+                    ?>
+                </a>
+            </li>
+            <li>
+                <a href="#" scrollTo="room-row">
+                    <?php
+                    if (isset($languages[$language]['menu']['rooms'])) {
+                        echo $languages[$language]['menu']['rooms'];
+                    }
+                    ?>
+                </a>
+            </li>
+            <li>
+                <a href="#" scrollTo="price-row">
+                    <?php
+                    if (isset($languages[$language]['menu']['prices'])) {
+                        echo $languages[$language]['menu']['prices'];
+                    }
+                    ?>
+                </a>
+            </li>
+            <li>
+                <a href="booking.html">
+                    <?php
+                    if (isset($languages[$language]['menu']['booking'])) {
+                        echo $languages[$language]['menu']['booking'];
+                    }
+                    ?>
+                </a>
+            </li>
+            <li>
+                <a href="#" scrollTo="faq">
+                    <?php
+                    if (isset($languages[$language]['menu']['faq'])) {
+                        echo $languages[$language]['menu']['faq'];
+                    }
+                    ?>
+                </a>
+            </li>
+            <li>
+                <a href="#" scrollTo="contact">
+                    <?php
+                    if (isset($languages[$language]['menu']['contact'])) {
+                        echo $languages[$language]['menu']['contact'];
+                    }
+                    ?>
+                </a>
+            </li>
+        </ul>
     </div>
     <div class="slider">
         <ul class="slides">
@@ -764,7 +819,7 @@
 
                     <p>Blekerijstraat 75</p>
 
-                    <p>9000 Ghent, BE</p>
+                    <p>9000 <?php echo $languages[$language]['trivial']['ghent']; ?>, BE</p>
                 </div>
                 <div class="col s12 m4">
                     <h5>
