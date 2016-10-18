@@ -4,7 +4,12 @@
             full_width: true
         });
 
-        $('.menu__item a').on('click', function (event) {
+        $('.button-collapse').sideNav({
+                closeOnClick: true
+            }
+        );
+
+        $('.menu__item a, .side-nav a').on('click', function (event) {
             if (!$(this).hasClass('no-prevent')) {
                 event.preventDefault();
                 var dest = $(this)[0].getAttribute('scrollTo'),
