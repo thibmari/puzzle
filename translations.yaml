@@ -90,7 +90,7 @@ nl:
       ghent: Gent
   slogans:
       slogan1: De uitdaging, binnen het uur ontsnappen uit onze escaperooms!
-      slogan2: Stel jouw team samen van 2 tot 7 personen en ga de uitdaging aan!
+      slogan2: Stel een team samen van 2 tot 7 personen en ga de uitdaging aan!
       slogan3: Is jouw groep groter dan 7 personen? Geen probleem! Contacteer ons voor een spel op maat!
       slogan4: Teambuilding op maat! Vraag naar info op <a href="mailto:escape@puzzle.gent?Subject=Teambuilding" target="_top">escape@puzzle.gent</a>
       slogan5: Vrijgezellenactiviteit? Vraag naar info op <a href="mailto:escape@puzzle.gent?Subject=Vrijgezellen" target="_top">escape@puzzle.gent</a>
@@ -110,7 +110,7 @@ nl:
   rooms:
         room1:
           title: Het Russische Lab
-          slogan: <p class="white-text">Na de openening van het <span class="orange-text">Russische Lab</span>, delen we met trots mee dat onze tweede kamer de <span class="orange-text">Chocolade Fabriek</span> binnenkort in gebruik zal worden genomen.</span></p>
+          slogan: <p class="white-text">Na de opening van het <span class="orange-text">Russische Lab</span>, delen we met trots mee dat onze tweede kamer de <span class="orange-text">Chocolade Fabriek</span> binnenkort in gebruik zal worden genomen.</span></p>
           text: Het lab is gesitueerd in het hartje van Gent. Tijdens de koude oorlog was er ergens een geheim Russisch Lab, volgens een welbekende mythe. Tot nu. Een terroristische organisatie heeft het Lab opnieuw geopend om daar een giftig gas te produceren, met als doel Gent te vernietigen. Als onderdeel van de Europese geheime dienst zullen jullie als spionnen moeten inbreken in het lab om een antidosis te ontwikkelen. Jullie hebben 60 minuten om de stad te redden. Durf je deze uitdaging aan?
   prices:
         friends:
@@ -118,7 +118,7 @@ nl:
           text: Ben je op zoek naar een toffe activiteit? Naar de film gaan is zo niet meer van deze tijd! Onze EscapeRooms zijn de perfecte manier om een leuke spannende tijd te beleven met je familie en vrienden!
         students:
           title: Studenten
-          text: Studenten krijgen een korting van 20%. Elke eerste donderdag van de maand hebben we promaties, check onze Facebook pagina voor meer info!
+          text: Studenten krijgen een korting van 20%. Elke eerste donderdag van de maand hebben we promoties, check onze Facebook pagina voor meer info!
         business:
           title: Business Teambuilding
           text: Ben je het ook beu om saaie teambuilding activiteiten te doen in Gent? Puzzle Escaperooms voorziet een pakket van uitdagende activiteiten voor jouw team. Onze Escaperooms voorzien unieke en leuk evenementen voor een toffe bedrijfsuitstap.
@@ -126,18 +126,18 @@ nl:
         title: <h5>Vind hier de antwoorden op je <span class="orange-text">vragen.</span></h5>
         faq1:
           question: Krijg je hulp?
-          answer: Additional tips and hints are available, but we will never give the complete solution. The aim is to unravel the mystery together, to think as a team about how to break the code and escape in time.
+          answer: Extra tips en hints zijn beschikbaar, maar we zullen nooit de complete oplossing geven. Het doel is om samen het mysterie te ontrafelen, in team denken naar de beste oplossing om de code te breken en op tijd te ontsnappen.
         faq2:
           question: Is het bangelijk?
-          answer: Onze escape rooms zijn ontworpen naargelang een thema. Creating a total experience is our priority, but we do not intend to scare the wits out of you. It’s not a horror scene, nor claustrophobic, but you are of course in a locked room. If the tension is getting you too much, there is always a ‘panic button’ to leave the game.
+          answer: Onze escape rooms zijn ontworpen naargelang een thema. Ons doel is om een totaalervaring te creëren, maar het is niet onze bedoeling om je schrik aan te jagen. Het is geen horror scene, niet claustrophobic, maar je zit natuurlijk wel in een gesloten kamer. Als de spanning je te veel wordt, is er altijd een ‘panic button’ om het spel te verlaten.
         faq3:
           question: Wanneer moeten we aanwezig zijn?
-          answer: We ask the participants to be present 15 minutes in advance. Please respect our punctual timing, so we can deliver the best experience to all participants. If you notice a delay, please contact us immediately.
+          answer: We vragen de deelnemers om 15 minuten voor aanwezig te zijn. Kom aub op tijd, zodat we de beste mogelijke ervaring kunnen leveren aan alle deelnemers. Als je merkt dat je te laat zal komen, contacteer ons dan onmiddellijk.
         faq4:
           question: Is het voor alle leeftijden?
-          answer: Our Escape Room is developed to stimulate creativity and problem-solving thinking. Due to the challenging level, we recommend the game from the age of 12. Children under twelve must be accompanied by an adult.
+          answer: Onze escaperooms zijn ontworpen om creativiteit en probleem oplossend denken te stimuleren. Met deze moeilijkheidsgraad in het achterhoofd adviseren wij een minimum leeftijd van 12 jaar. Kinderen onder de 12 jaar moeten vergezeld zijn door een volwassene.
         faq5:
           question: Is er een taalgrens?
-          answer: Our Escaperoom is designed in English for an international audience. There is no other specific language required for breaking the codes and solving the puzzles.
+          answer: Onze escaperooms zijn ontworpen in het Engels voor een internationaal publiek. Er is geen andere taal nodig voor het breken van de codes en het oplossen van alle puzzels.
 
 

@@ -7717,4 +7717,7 @@ footer.page-footer {
 .button-collapse i {
   margin-top: 15px; }
 
+.side-nav a {
+  text-transform: capitalize; }
+
 /*# sourceMappingURL=maps/materialize.css.map */
