@@ -174,7 +174,7 @@
                 </a>
             </li>
             <li>
-                <a href="booking.html">
+                <a class="no-prevent" href="booking.html">
                     <?php
                     if (isset($languages[$language]['menu']['booking'])) {
                         echo $languages[$language]['menu']['booking'];

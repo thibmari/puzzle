@@ -13,5 +13,5 @@ if ($language !== 'nl') {
     $newL = 'en';
 }
 
-$newUrl    = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $languageArray[$arrayLength - 2] . '/' . $newL;
+$newUrl    = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $languageArray[$arrayLength - 2] . $newL;
 $languages = Spyc::YAMLLoad('translations.yaml');

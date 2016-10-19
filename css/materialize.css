@@ -7555,7 +7555,7 @@ footer.page-footer {
   left: 0;
   right: 0;
   bottom: 50px;
-  z-index: 9998;
+  z-index: 9995;
   margin: 0; }
   @media only screen and (min-width: 601px) {
     .slider .indicators {

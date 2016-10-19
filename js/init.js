@@ -74,6 +74,11 @@
             var $menu = $('.menu');
             var $menuText = $('.menu__text');
 
+            /* For the desktop version we want the bar get shown immediately mobile only later */
+            if (slide > 500) {
+                slide = slide - 300;
+            }
+
             if (scroll > slide && !($menu).is(':animated') && !($menuWrapper.hasClass('menu-slide'))) {
                 $menuWrapper.addClass('menu-slide');
                 $menuWrapper.css('border-bottom', 'solid 1px #ccc');
