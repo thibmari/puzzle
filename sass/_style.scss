@@ -1,10 +1,6 @@
-@font-face {
-  font-family: "Always Together";
-  src: url('../font/always-together/always-together.otf');
-}
-
 body {
-  background-color: #fff;
+  background-color: #382001;
+  color: #fff;
 }
 
 .icon-block {
@@ -32,7 +28,7 @@ body {
 }
 
 .menu-slide {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #382001;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -59,17 +55,31 @@ body {
   position: relative;
   vertical-align: top;
   text-align: center;
-  font-family: "Always Together";
-  font-size: 2em;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+.margin-top {
+  margin-top: 20px;
+  @media #{$medium-and-up} {
+    margin-top: 30px;
+  }
+  @media #{$large-and-up} {
+    margin-top: 40px;
+  }
 }
 
 .inset {
   display: block;
-  @extend .orange-text
+  color: #ffcc00;
+}
+
+.my-yellow {
+  color: #ffcc00;
 }
 
 .menu__text {
-  margin-top: -10px;
+  margin-top: 0px;
   display: block;
   text-transform: uppercase;
   color: #fff;
@@ -116,38 +126,35 @@ body {
 }
 
 .slideshow__title_orange h1 {
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 0;
   line-height: 1em;
-  margin-bottom: 0px;
-  @extend .orange-text;
+  margin-bottom: 25px;
+  color: #ffcc00;
   @media #{$medium-and-up} {
-    font-size: 5em;
-    margin-bottom: 0px;
+    font-size: 3em;
+    margin-bottom: 10px;
     margin-top: 15px;
-
   }
   @media #{$large-and-up} {
-    font-size: 5em;
-    margin-bottom: 0px;
+    font-size: 3.5em;
+    margin-bottom: 15px;
   }
 }
 
 .slideshow__title_white {
-  font-family: "Always Together";
-  font-size: 2em;
+  font-family: 'Kreon', serif;
+  font-size: 1.5em;
   color: #fff;
-  margin-bottom: -10px;
   @media #{$medium-and-up} {
-    font-size: 3.2em;
-    line-height: 1em;
-    margin-bottom: -30px;
+    font-size: 2.2em;
+    line-height: 1.2em;
   }
   @media #{$large-and-up} {
-    font-size: 3.7em;
-    line-height: 1.2em;
+    font-size: 2.7em;
+    line-height: 1.4em;
   }
 }
 
@@ -189,7 +196,7 @@ body {
 
 .slideshow__actions .active {
   font-size: 35px;
-  @extend .orange-text;
+  color: #ffcc00;
 }
 
 #google-map {
@@ -239,7 +246,7 @@ body {
 
 .overlay h2,
 .faq i {
-  @extend .orange-text
+  color: #ffcc00;
 }
 
 .faq h5 {
@@ -283,8 +290,8 @@ footer.page-footer {
 }
 
 .contact-info h5 {
-  font-family: "Always Together";
-  font-size: 30px;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -330,14 +337,14 @@ footer.page-footer {
 .input-field input[type=email]:focus + label,
 .input-field #textarea:focus + label,
 .input-field .prefix.active {
-  color: #ff9700;
+  color: #ffc000;
 }
 
 .input-field input[type=text]:focus,
 .input-field input[type=email]:focus,
 .input-field #textarea:focus {
-  border-bottom: 1px solid #ff9700;
-  box-shadow: 0 1px 0 0 #ff9700;
+  border-bottom: 1px solid #ffcc00;
+  box-shadow: 0 1px 0 0 #ffcc00;
 }
 
 .move-links {
@@ -346,7 +353,7 @@ footer.page-footer {
 
 .contact-form .btn {
   margin-left: 0;
-  background-color: #ff9700;
+  background-color: #ffcc00;
 }
 
 .mar-bottom {
@@ -411,7 +418,7 @@ footer.page-footer {
 }
 
 .caption h3 {
-  color: #ff9700;
+  color: #ffc000;
 }
 
 .slider .slides li .caption p {
@@ -447,16 +454,16 @@ footer.page-footer {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #ff9800;
+  background-color: #ffc000;
 }
 
 .big-title {
-  font-family: "Always Together";
-  font-size: 3em;
+  font-family: 'Kreon', serif, Arial, Helvetica, sans-serif;
+  font-size: 2em;
   line-height: 1.5em;
-  @extend .orange-text;
+  color: #ffcc00;
   @media #{$medium-and-up} {
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1em;
   }
 }
@@ -467,7 +474,7 @@ footer.page-footer {
 
 .pricebox {
   height: 150px;
-  background-color: #ff9800;
+  background-color: #ffc000;
   padding: 10px;
   margin-bottom: 20px;
   @media #{$medium-and-up} {
@@ -478,12 +485,12 @@ footer.page-footer {
 .call-to-action {
   height: 50px;
   position: fixed;
-  font-family: "Always Together";
-  background-color: #ff9800;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  background-color: #ffc000;
   color: #fff;
   text-align: center;
   bottom: -1px;
-  font-size: 3em;
+  font-size: 2.4em;
   width: 100%;
   z-index: 9999;
   @media #{$medium-and-up} {
@@ -500,7 +507,7 @@ footer.page-footer {
   height: 110px;
   width: 250px;
   text-align: center;
-  background-color: #ff9800;
+  background-color: #ffc000;
   padding: 10px;
   margin: 40px auto 0 auto;
   display: none;
@@ -526,7 +533,7 @@ footer.page-footer {
   background-color: #fff;
   height: 40px;
   padding: 7px;
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #000;
   font-size: 21px;
 }
@@ -535,28 +542,28 @@ footer.page-footer {
   background-color: #232323;
   height: 50px;
   padding: 7px;
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 34px;
+  font-size: 25px;
 }
 
 .subbox3 {
-  height: 30px;
-  padding: 7px;
-  font-family: "Always Together";
+  height: 18px;
+  padding: 5px;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   @media #{$medium-and-up} {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
 #bookeoStartMobile {
   width: 250px !important;
   margin: 0 auto !important;
-  background-color: #ff9800 !important;
+  background-color: #ffc000 !important;
   border: 0 !important;
-  font-family: "Always Together" !important;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif !important;
 }
 
 .scrollToTop {
@@ -564,7 +571,6 @@ footer.page-footer {
   height: 50px;
   padding: 10px;
   text-align: center;
-  background: whiteSmoke;
   font-weight: bold;
   color: #444;
   text-decoration: none;
@@ -572,7 +578,7 @@ footer.page-footer {
   bottom: 55px;
   right: 40px;
   display: none;
-  background: #ff9800 no-repeat 0px 20px;
+  background: #ffc000 no-repeat 0px 20px;
 }
 
 .scrollToTop:hover {
@@ -608,7 +614,7 @@ footer.page-footer {
 }
 
 .button-collapse {
-  color: #ff9800;
+  color: #ffc000;
   padding-left: 20px;
 }
 

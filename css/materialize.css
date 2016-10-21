@@ -1237,99 +1237,85 @@
 .orange.lighten-5 {
   background-color: #fff3e0 !important; }
 
-.orange-text.text-lighten-5, .text-lighten-5.inset, .slideshow__title_orange h1.text-lighten-5, .slideshow__actions .text-lighten-5.active, .overlay h2.text-lighten-5,
-.faq i.text-lighten-5, .text-lighten-5.big-title {
+.orange-text.text-lighten-5 {
   color: #fff3e0 !important; }
 
 .orange.lighten-4 {
   background-color: #ffe0b2 !important; }
 
-.orange-text.text-lighten-4, .text-lighten-4.inset, .slideshow__title_orange h1.text-lighten-4, .slideshow__actions .text-lighten-4.active, .overlay h2.text-lighten-4,
-.faq i.text-lighten-4, .text-lighten-4.big-title {
+.orange-text.text-lighten-4 {
   color: #ffe0b2 !important; }
 
 .orange.lighten-3 {
   background-color: #ffcc80 !important; }
 
-.orange-text.text-lighten-3, .text-lighten-3.inset, .slideshow__title_orange h1.text-lighten-3, .slideshow__actions .text-lighten-3.active, .overlay h2.text-lighten-3,
-.faq i.text-lighten-3, .text-lighten-3.big-title {
+.orange-text.text-lighten-3 {
   color: #ffcc80 !important; }
 
 .orange.lighten-2 {
   background-color: #ffb74d !important; }
 
-.orange-text.text-lighten-2, .text-lighten-2.inset, .slideshow__title_orange h1.text-lighten-2, .slideshow__actions .text-lighten-2.active, .overlay h2.text-lighten-2,
-.faq i.text-lighten-2, .text-lighten-2.big-title {
+.orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
 .orange.lighten-1 {
   background-color: #ffa726 !important; }
 
-.orange-text.text-lighten-1, .text-lighten-1.inset, .slideshow__title_orange h1.text-lighten-1, .slideshow__actions .text-lighten-1.active, .overlay h2.text-lighten-1,
-.faq i.text-lighten-1, .text-lighten-1.big-title {
+.orange-text.text-lighten-1 {
   color: #ffa726 !important; }
 
 .orange {
   background-color: #ff9800 !important; }
 
-.orange-text, .inset, .slideshow__title_orange h1, .slideshow__actions .active, .overlay h2,
-.faq i, .big-title {
+.orange-text {
   color: #ff9800 !important; }
 
 .orange.darken-1 {
   background-color: #fb8c00 !important; }
 
-.orange-text.text-darken-1, .text-darken-1.inset, .slideshow__title_orange h1.text-darken-1, .slideshow__actions .text-darken-1.active, .overlay h2.text-darken-1,
-.faq i.text-darken-1, .text-darken-1.big-title {
+.orange-text.text-darken-1 {
   color: #fb8c00 !important; }
 
 .orange.darken-2 {
   background-color: #f57c00 !important; }
 
-.orange-text.text-darken-2, .text-darken-2.inset, .slideshow__title_orange h1.text-darken-2, .slideshow__actions .text-darken-2.active, .overlay h2.text-darken-2,
-.faq i.text-darken-2, .text-darken-2.big-title {
+.orange-text.text-darken-2 {
   color: #f57c00 !important; }
 
 .orange.darken-3 {
   background-color: #ef6c00 !important; }
 
-.orange-text.text-darken-3, .text-darken-3.inset, .slideshow__title_orange h1.text-darken-3, .slideshow__actions .text-darken-3.active, .overlay h2.text-darken-3,
-.faq i.text-darken-3, .text-darken-3.big-title {
+.orange-text.text-darken-3 {
   color: #ef6c00 !important; }
 
 .orange.darken-4 {
   background-color: #e65100 !important; }
 
-.orange-text.text-darken-4, .text-darken-4.inset, .slideshow__title_orange h1.text-darken-4, .slideshow__actions .text-darken-4.active, .overlay h2.text-darken-4,
-.faq i.text-darken-4, .text-darken-4.big-title {
+.orange-text.text-darken-4 {
   color: #e65100 !important; }
 
 .orange.accent-1 {
   background-color: #ffd180 !important; }
 
-.orange-text.text-accent-1, .text-accent-1.inset, .slideshow__title_orange h1.text-accent-1, .slideshow__actions .text-accent-1.active, .overlay h2.text-accent-1,
-.faq i.text-accent-1, .text-accent-1.big-title {
+.orange-text.text-accent-1 {
   color: #ffd180 !important; }
 
 .orange.accent-2 {
   background-color: #ffab40 !important; }
 
-.orange-text.text-accent-2, .text-accent-2.inset, .slideshow__title_orange h1.text-accent-2, .slideshow__actions .text-accent-2.active, .overlay h2.text-accent-2,
-.faq i.text-accent-2, .text-accent-2.big-title {
+.orange-text.text-accent-2 {
   color: #ffab40 !important; }
 
 .orange.accent-3 {
   background-color: #ff9100 !important; }
 
-.orange-text.text-accent-3, .text-accent-3.inset, .slideshow__title_orange h1.text-accent-3, .slideshow__actions .text-accent-3.active, .overlay h2.text-accent-3,
-.faq i.text-accent-3, .text-accent-3.big-title {
+.orange-text.text-accent-3 {
   color: #ff9100 !important; }
 
 .orange.accent-4 {
   background-color: #ff6d00 !important; }
 
-.orange-text.text-accent-4, .text-accent-4.inset, .slideshow__title_orange h1.text-accent-4, .slideshow__actions .text-accent-4.active, .overlay h2.text-accent-4,
-.faq i.text-accent-4, .text-accent-4.big-title {
+.orange-text.text-accent-4 {
   color: #ff6d00 !important; }
 
 .deep-orange.lighten-5 {
@@ -2019,7 +2005,7 @@ ul {
   list-style-type: none; }
 
 a {
-  color: #039be5;
+  color: #ffcc00;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
 
@@ -2224,13 +2210,13 @@ ul.staggered-list li {
 
 footer.page-footer {
   padding-top: 20px;
-  background-color: #ee6e73; }
+  background-color: #382001; }
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
     line-height: 50px;
     color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(51, 51, 51, 0.08); }
+    background-color: #382001; }
 
 table, th, td {
   border: none; }
@@ -2437,7 +2423,7 @@ span.badge {
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: #ff9800;
+    background-color: #ffcc00;
     -webkit-transition: width 0.3s linear;
     -moz-transition: width 0.3s linear;
     -o-transition: width 0.3s linear;
@@ -5455,7 +5441,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1; }
 
 h2, h3 {
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-style: normal !important; }
 
@@ -5471,9 +5457,9 @@ h1 {
   margin: 2.1rem 0 1.68rem 0; }
 
 h2 {
-  font-size: 3.16rem;
+  font-size: 2.8rem;
   line-height: 110%;
-  margin: 1.58rem 0 1.264rem 0; }
+  margin: 1.4rem 0 1.12rem 0; }
 
 h3 {
   font-size: 2.3rem;
@@ -6082,7 +6068,7 @@ a.waves-effect .waves-ripple {
   height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
-  background-color: #fff;
+  background-color: #382001;
   border-bottom: 1px solid #ddd; }
   .collapsible-header i {
     width: 2rem;
@@ -6120,7 +6106,7 @@ a.waves-effect .waves-ripple {
 
 .side-nav .collapsible-body {
   border: 0;
-  background-color: #fff; }
+  background-color: #382001; }
   .side-nav .collapsible-body li a {
     margin: 0 1rem 0 2rem; }
 
@@ -7189,12 +7175,9 @@ select {
   z-index: 997;
   will-change: opacity; }
 
-@font-face {
-  font-family: "Always Together";
-  src: url("../font/always-together/always-together.otf"); }
-
 body {
-  background-color: #fff; }
+  background-color: #382001;
+  color: #fff; }
 
 .icon-block {
   padding: 0 15px; }
@@ -7218,7 +7201,7 @@ body {
       height: 110px; } }
 
 .menu-slide {
-  background-color: white;
+  background-color: #382001;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s; }
@@ -7243,14 +7226,27 @@ body {
   position: relative;
   vertical-align: top;
   text-align: center;
-  font-family: "Always Together";
-  font-size: 2em; }
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  font-size: 1.5em; }
+
+.margin-top {
+  margin-top: 20px; }
+  @media only screen and (min-width: 601px) {
+    .margin-top {
+      margin-top: 30px; } }
+  @media only screen and (min-width: 993px) {
+    .margin-top {
+      margin-top: 40px; } }
 
 .inset {
-  display: block; }
+  display: block;
+  color: #ffcc00; }
+
+.my-yellow {
+  color: #ffcc00; }
 
 .menu__text {
-  margin-top: -10px;
+  margin-top: 0px;
   display: block;
   text-transform: uppercase;
   color: #fff; }
@@ -7291,36 +7287,35 @@ body {
   text-align: center; }
 
 .slideshow__title_orange h1 {
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 0;
   line-height: 1em;
-  margin-bottom: 0px; }
+  margin-bottom: 25px;
+  color: #ffcc00; }
   @media only screen and (min-width: 601px) {
     .slideshow__title_orange h1 {
-      font-size: 5em;
-      margin-bottom: 0px;
+      font-size: 3em;
+      margin-bottom: 10px;
       margin-top: 15px; } }
   @media only screen and (min-width: 993px) {
     .slideshow__title_orange h1 {
-      font-size: 5em;
-      margin-bottom: 0px; } }
+      font-size: 3.5em;
+      margin-bottom: 15px; } }
 
 .slideshow__title_white {
-  font-family: "Always Together";
-  font-size: 2em;
-  color: #fff;
-  margin-bottom: -10px; }
+  font-family: 'Kreon', serif;
+  font-size: 1.5em;
+  color: #fff; }
   @media only screen and (min-width: 601px) {
     .slideshow__title_white {
-      font-size: 3.2em;
-      line-height: 1em;
-      margin-bottom: -30px; } }
+      font-size: 2.2em;
+      line-height: 1.2em; } }
   @media only screen and (min-width: 993px) {
     .slideshow__title_white {
-      font-size: 3.7em;
-      line-height: 1.2em; } }
+      font-size: 2.7em;
+      line-height: 1.4em; } }
 
 .slideshow__subtext {
   font-family: 'Kreon', serif;
@@ -7355,7 +7350,8 @@ body {
   padding: 0 5px; }
 
 .slideshow__actions .active {
-  font-size: 35px; }
+  font-size: 35px;
+  color: #ffcc00; }
 
 #google-map {
   width: 100%;
@@ -7397,6 +7393,10 @@ body {
 .rooms {
   background-color: #232323; }
 
+.overlay h2,
+.faq i {
+  color: #ffcc00; }
+
 .faq h5 {
   padding-bottom: 15px; }
 
@@ -7431,8 +7431,8 @@ footer.page-footer {
   color: #fff; }
 
 .contact-info h5 {
-  font-family: "Always Together";
-  font-size: 30px;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 20px; }
 
@@ -7469,20 +7469,20 @@ footer.page-footer {
 .input-field input[type=email]:focus + label,
 .input-field #textarea:focus + label,
 .input-field .prefix.active {
-  color: #ff9700; }
+  color: #ffc000; }
 
 .input-field input[type=text]:focus,
 .input-field input[type=email]:focus,
 .input-field #textarea:focus {
-  border-bottom: 1px solid #ff9700;
-  box-shadow: 0 1px 0 0 #ff9700; }
+  border-bottom: 1px solid #ffcc00;
+  box-shadow: 0 1px 0 0 #ffcc00; }
 
 .move-links {
   margin-left: -8px; }
 
 .contact-form .btn, .contact-form .btn-large {
   margin-left: 0;
-  background-color: #ff9700; }
+  background-color: #ffcc00; }
 
 .mar-bottom {
   margin-bottom: 20px; }
@@ -7540,7 +7540,7 @@ footer.page-footer {
       top: 25%; } }
 
 .caption h3 {
-  color: #ff9700; }
+  color: #ffc000; }
 
 .slider .slides li .caption p {
   color: #e0e0e0; }
@@ -7571,15 +7571,16 @@ footer.page-footer {
   background-color: #e0e0e0; }
 
 .slider .indicators .indicator-item.active {
-  background-color: #ff9800; }
+  background-color: #ffc000; }
 
 .big-title {
-  font-family: "Always Together";
-  font-size: 3em;
-  line-height: 1.5em; }
+  font-family: 'Kreon', serif, Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #ffcc00; }
   @media only screen and (min-width: 601px) {
     .big-title {
-      font-size: 4em;
+      font-size: 3em;
       line-height: 1em; } }
 
 .prices .fa {
@@ -7587,7 +7588,7 @@ footer.page-footer {
 
 .pricebox {
   height: 150px;
-  background-color: #ff9800;
+  background-color: #ffc000;
   padding: 10px;
   margin-bottom: 20px; }
   @media only screen and (min-width: 601px) {
@@ -7597,12 +7598,12 @@ footer.page-footer {
 .call-to-action {
   height: 50px;
   position: fixed;
-  font-family: "Always Together";
-  background-color: #ff9800;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  background-color: #ffc000;
   color: #fff;
   text-align: center;
   bottom: -1px;
-  font-size: 3em;
+  font-size: 2.4em;
   width: 100%;
   z-index: 9999; }
   @media only screen and (min-width: 601px) {
@@ -7617,7 +7618,7 @@ footer.page-footer {
   height: 110px;
   width: 250px;
   text-align: center;
-  background-color: #ff9800;
+  background-color: #ffc000;
   padding: 10px;
   margin: 40px auto 0 auto;
   display: none; }
@@ -7640,7 +7641,7 @@ footer.page-footer {
   background-color: #fff;
   height: 40px;
   padding: 7px;
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #000;
   font-size: 21px; }
 
@@ -7648,33 +7649,32 @@ footer.page-footer {
   background-color: #232323;
   height: 50px;
   padding: 7px;
-  font-family: "Always Together";
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 34px; }
+  font-size: 25px; }
 
 .subbox3 {
-  height: 30px;
-  padding: 7px;
-  font-family: "Always Together";
+  height: 18px;
+  padding: 5px;
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 30px; }
+  font-size: 25px; }
   @media only screen and (min-width: 601px) {
     .subbox3 {
-      font-size: 30px; } }
+      font-size: 28px; } }
 
 #bookeoStartMobile {
   width: 250px !important;
   margin: 0 auto !important;
-  background-color: #ff9800 !important;
+  background-color: #ffc000 !important;
   border: 0 !important;
-  font-family: "Always Together" !important; }
+  font-family: 'Antic Slab', Arial, Helvetica, sans-serif !important; }
 
 .scrollToTop {
   width: 50px;
   height: 50px;
   padding: 10px;
   text-align: center;
-  background: whiteSmoke;
   font-weight: bold;
   color: #444;
   text-decoration: none;
@@ -7682,7 +7682,7 @@ footer.page-footer {
   bottom: 55px;
   right: 40px;
   display: none;
-  background: #ff9800 no-repeat 0px 20px; }
+  background: #ffc000 no-repeat 0px 20px; }
 
 .scrollToTop:hover {
   text-decoration: none; }
@@ -7711,7 +7711,7 @@ footer.page-footer {
   color: #fff; }
 
 .button-collapse {
-  color: #ff9800;
+  color: #ffc000;
   padding-left: 20px; }
 
 .button-collapse i {

@@ -12,7 +12,7 @@ en:
       mail: Drop us a mail
       location: You can find us at
       call: Call us, we don't bite
-      contact: <span class="orange-text">Hello. </span>How can we help you?
+      contact: <span class="my-yellow">Hello. </span>How can we help you?
       name: Name
       vraag: Type your question over here
       submit: submit
@@ -39,7 +39,7 @@ en:
   rooms:
       room1:
         title: the russian lab
-        slogan: <p class="white-text">After opening the <span class="orange-text">Russian Lab</span>, we are excited to inform you that our second room the <span class="orange-text">Chocolate Factory</span> wil open it's doors soon.</span></p>
+        slogan: <p class="white-text">After opening the <span class="my-yellow">Russian Lab</span>, we are excited to inform you that our second room the <span class="my-yellow">Chocolate Factory</span> wil open it's doors soon.</span></p>
         text: The Lab is situated in the heart of Ghent. During the Cold War there was a secret Russian Lab, a myth according to many. Until now. A terrorist organization has reopened the Lab and produces a poisonous gas, determined to destroy the city of Ghent. Recruited as spies of the European Secret Service you have the task to break into the lab and create an antidote. You have 60 minutes to save the city. Do you dare to take this challenge?
   prices:
       friends:
@@ -52,7 +52,7 @@ en:
         title: Business Teambuilding
         text: Tired of boring team building events in the city? Puzzle Escaperooms provides challenging scenarios packed for your team. Our Escaperooms will provide a unique and fun event for corporate entertainment.
   faq:
-      title: <h5>Find the answers to your <span class="orange-text">questions.</span></h5>
+      title: <h5>Find the answers to your <span class="my-yellow">questions.</span></h5>
       faq1:
         question: Do you get help?
         answer: Additional tips and hints are available, but we will never give the complete solution. The aim is to unravel the mystery together, to think as a team about how to break the code and escape in time.
@@ -83,7 +83,7 @@ nl:
       mail: Zend ons een email
       location: Hier kan je ons vinden
       call: Bel ons, wij bijten niet
-      contact: <span class="orange-text">Hallo. </span>Hoe kunnen wij je helpen?
+      contact: <span class="my-yellow">Hallo. </span>Hoe kunnen wij je helpen?
       name: Naam
       vraag: Hier kan je jouw vraag stellen
       submit: Verzenden
@@ -110,7 +110,7 @@ nl:
   rooms:
         room1:
           title: Het Russische Lab
-          slogan: <p class="white-text">Na de opening van het <span class="orange-text">Russische Lab</span>, delen we met trots mee dat onze tweede kamer de <span class="orange-text">Chocolade Fabriek</span> binnenkort in gebruik zal worden genomen.</span></p>
+          slogan: <p class="white-text">Na de opening van het <span class="my-yellow">Russische Lab</span>, delen we met trots mee dat onze tweede kamer de <span class="my-yellow">Chocolade Fabriek</span> binnenkort in gebruik zal worden genomen.</span></p>
           text: Het lab is gesitueerd in het hartje van Gent. Tijdens de koude oorlog was er ergens een geheim Russisch Lab, volgens een welbekende mythe. Tot nu. Een terroristische organisatie heeft het Lab opnieuw geopend om daar een giftig gas te produceren, met als doel Gent te vernietigen. Als onderdeel van de Europese geheime dienst zullen jullie als spionnen moeten inbreken in het lab om een antidosis te ontwikkelen. Jullie hebben 60 minuten om de stad te redden. Durf je deze uitdaging aan?
   prices:
         friends:
@@ -123,7 +123,7 @@ nl:
           title: Business Teambuilding
           text: Ben je het ook beu om saaie teambuilding activiteiten te doen in Gent? Puzzle Escaperooms voorziet een pakket van uitdagende activiteiten voor jouw team. Onze Escaperooms voorzien unieke en leuk evenementen voor een toffe bedrijfsuitstap.
   faq:
-        title: <h5>Vind hier de antwoorden op je <span class="orange-text">vragen.</span></h5>
+        title: <h5>Vind hier de antwoorden op je <span class="my-yellow">vragen.</span></h5>
         faq1:
           question: Krijg je hulp?
           answer: Extra tips en hints zijn beschikbaar, maar we zullen nooit de complete oplossing geven. Het doel is om samen het mysterie te ontrafelen, in team denken naar de beste oplossing om de code te breken en op tijd te ontsnappen.

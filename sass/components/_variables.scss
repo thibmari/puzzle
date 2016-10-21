@@ -6,7 +6,7 @@ $primary-color-dark: darken($primary-color, 15%) !default;
 $secondary-color: color("teal", "lighten-1") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: #ffcc00 !default;
 
 /*** Badges ***/
 $badge-bg-color: $secondary-color !default;
@@ -31,7 +31,7 @@ $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 /*** Collapsible ***/
 $collapsible-height: 3rem !default;
-$collapsible-header-color: #fff !default;
+$collapsible-header-color: #382001 !default;
 $collapsible-border-color: #ddd !default;
 
 /*** Dropdown ***/
@@ -127,14 +127,14 @@ $toast-text-color: #fff !default;
 $off-black: rgba(0, 0, 0, 0.87) !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;
-$h2-fontsize: 3.16rem !default;
+$h2-fontsize: 2.8rem !default;
 $h3-fontsize: 2.3rem !default;
 $h4-fontsize: 2.28rem !default;
 $h5-fontsize: 1.64rem !default;
 $h6-fontsize: 1rem !default;
 
 // Footer
-$footer-bg-color: $primary-color !default;
+$footer-bg-color: #382001 !default;
 
 // Flowtext
 $range : $large-screen - $small-screen !default;

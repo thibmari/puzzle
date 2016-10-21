@@ -11,6 +11,7 @@
     <!-- CSS  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" />
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -65,7 +66,7 @@
                     <span class="inset">
                         <img alt="puzzle logo" width="31" src="img/logo.png" />
                     </span>
-                    <span style="margin-top: -12px;" class="menu__text hide-on-small-and-down">
+                    <span style="margin-top: -2px;" class="menu__text hide-on-small-and-down">
                         <?php
                             if (isset($languages[$language]['menu']['about'])) {
                                 echo $languages[$language]['menu']['about'];
@@ -208,7 +209,7 @@
                 <img alt="escape room gent puzzle game" class="slide-img" src="img/bg.jpg?bla">
                 <div class="slide-wrapper">
                     <div class="slideshow__item slideshow__title slideshow__title_orange">
-                        <h1>PUZZLE ESCAPEROOMS, <?php echo $languages[$language]['trivial']['ghent']; ?></h1>
+                        <h1>PUZZLE ESCAPEROOMS <?php echo $languages[$language]['trivial']['ghent']; ?></h1>
                     </div>
                     <div class="slideshow__item slideshow__title slideshow__title_white">
                         <?php
@@ -235,7 +236,7 @@
             </li>
             <li>
                 <img alt="escape room ghent team building" src="img/bg2.jpg?bla">
-                <div class="caption center-align">
+                <div class="caption center-align margin-top">
                     <span class="big-title">
                        <?php
                            if (isset($languages[$language]['slogans']['slogan2'])) {
@@ -261,7 +262,7 @@
             </li>
             <li>
                 <img alt="escape room gent puzzle game" class="slide-img" src="img/bg3.jpg?bla">
-                <div class="slide-wrapper">
+                <div class="slide-wrapper margin-top">
                     <div class="slideshow__item slideshow__title slideshow__title_white">
                         <?php
                         if (isset($languages[$language]['slogans']['slogan3'])) {
@@ -287,7 +288,7 @@
             </li>
             <li>
                 <img alt="escape room ghent team building" src="img/bg4.jpg?bla">
-                <div class="caption center-align">
+                <div class="caption center-align margin-top">
                     <span class="big-title">
                        <?php
                            if (isset($languages[$language]['slogans']['slogan4'])) {
@@ -313,7 +314,7 @@
             </li>
             <li>
                 <img alt="escape room ghent team building" src="img/bg5.jpg?bla">
-                <div class="caption center-align">
+                <div class="caption center-align margin-top">
                     <span class="big-title">
                        <?php
                            if (isset($languages[$language]['slogans']['slogan5'])) {
@@ -353,7 +354,7 @@
                             }
                         ?>
                     </h2>
-                    <div class="center orange-text">
+                    <div class="center my-yellow">
                         <img alt="puzzle logo escape room ghent" width="70" src="img/logo.png" />
                     </div>
                     <h5 class="center">
@@ -382,7 +383,7 @@
                         ?>
                     </h2>
 
-                    <div class="center orange-text">
+                    <div class="center my-yellow">
                         <i class="fa fa-map"></i>
                     </div>
                     <h5 class="center">
@@ -410,7 +411,7 @@
                             }
                         ?>
                     </h2>
-                    <div class="center orange-text">
+                    <div class="center my-yellow">
                         <i class="fa fa-users"></i>
                     </div>
                     <h5 class="center">
@@ -436,7 +437,7 @@
     <div class="container">
         <div class="row room-row">
             <div class="col s12 m12 center">
-                <h2 class="orange-text">
+                <h2 class="my-yellow">
                     <?php
                         if (isset($languages[$language]['menu']['rooms'])) {
                             echo $languages[$language]['menu']['rooms'];
@@ -472,7 +473,7 @@
                         ?>
                     </li>
                 </ul>
-                <h6 class="orange-text">Escapes completed (25%)</h6>
+                <h6 class="my-yellow">Escapes completed (25%)</h6>
                 <div class="progress">
                     <div class="determinate" style="width: 25%"></div>
                 </div>
@@ -508,7 +509,7 @@
                             }
                         ?>
                     </h5>
-                    <div class="center orange-text">
+                    <div class="center my-yellow">
                         <i class="fa fa-users"></i>
                     </div>
                     <p class="light">
@@ -529,7 +530,7 @@
                             }
                         ?>
                     </h5>
-                    <div class="center orange-text">
+                    <div class="center my-yellow">
                         <i class="fa fa-graduation-cap"></i>
                     </div>
                     <p class="light">
@@ -550,7 +551,7 @@
                             }
                         ?>
                     </h5>
-                    <div class="center orange-text">
+                    <div class="center my-yellow">
                         <i class="fa fa-briefcase"></i>
                     </div>
                     <p class="light">
@@ -806,7 +807,7 @@
                         }
                         ?>
                     </h5>
-                    <p><span class="orange-text">escape</span>@puzzle.gent</p>
+                    <p><span class="my-yellow">escape</span>@puzzle.gent</p>
                 </div>
                 <div class="col s12 m4 mar-bottom">
                     <h5>
@@ -847,7 +848,7 @@
             <img src="img/twitter_logo.png" alt="facebook logo"/>
         </a>
     </div>
-    <div class="row">
+    <div class="row" style="background-color: #fff">
         <a target="_blank" href="http://www.tripadvisor.nl/10063770?m=19905"
            class="col s12 m6 social-helper tripadvisor">
             <img src="img/tripadvisor.jpg" alt="tripadvisor"/>

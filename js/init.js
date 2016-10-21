@@ -82,7 +82,6 @@
             if (scroll > slide && !($menu).is(':animated') && !($menuWrapper.hasClass('menu-slide'))) {
                 $menuWrapper.addClass('menu-slide');
                 $menuWrapper.css('border-bottom', 'solid 1px #ccc');
-                $menuText.css('color', '#000');
                 $menu.animate({
                     'padding-top': '10px'
                 }, 300);
@@ -92,7 +91,6 @@
             } else if (slide + 5 > scroll && !($menu).is(':animated') && $menuWrapper.hasClass('menu-slide')) {
                 $menuWrapper.removeClass('menu-slide');
                 $menuWrapper.css('border-bottom', 'none');
-                $menuText.css('color', '#FFF');
                 $menu.animate({
                     'padding-top': paddingDepand + 'px'
                 }, 300);
