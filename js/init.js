@@ -9,20 +9,6 @@
             }
         );
 
-        $('.menu__item a, .side-nav a').on('click', function (event) {
-            if (!$(this).hasClass('no-prevent')) {
-                event.preventDefault();
-                var dest = $(this)[0].getAttribute('scrollTo'),
-                    x = $('.' + dest).offset().top - 82;
-                if (!$('.menu__text').is(':visible')) {
-                    x = x + 30;
-                }
-                $('html, body').animate({
-                    scrollTop: x
-                }, 1500);
-            }
-        });
-
         $('.no-do').on('click', function (event) {
             event.preventDefault();
             var dest = $(this)[0].getAttribute('scrollTo'),
@@ -58,7 +44,7 @@
 
             if ($('.menu__text').is(':visible')) {
                 slideMin = 110;
-                heightExpand = 90;
+                heightExpand = 80;
                 paddingDepand = 30;
                 heightDepand = 110;
             } else {
@@ -99,6 +85,9 @@
                 }, 300);
             }
         });
+
+        $('select').material_select();
+
     }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -124,4 +113,26 @@ function initialize() {
 
     marker.setMap(map);
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+var url = window.location.href;
+
+/*
+This javascript functionality is only applicable for the index page
+*/
+if(url.indexOf("teambuilding") === -1 && url.indexOf("gift") === -1) {
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+    $('.menu__item a, .side-nav a').on('click', function (event) {
+        if (!$(this).hasClass('no-prevent')) {
+            event.preventDefault();
+            var dest = $(this)[0].getAttribute('scrollTo'),
+                x = $('.' + dest).offset().top - 82;
+            if (!$('.menu__text').is(':visible')) {
+                x = x + 30;
+            }
+            x = x + 10;
+            $('html, body').animate({
+                scrollTop: x
+            }, 1500);
+        }
+    });
+}

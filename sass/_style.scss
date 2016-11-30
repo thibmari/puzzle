@@ -27,11 +27,21 @@ body {
   }
 }
 
+.menu-wrapper_cs {
+  top: -15px !important;
+  background-color: #382001;
+  height: 95px;
+}
+
 .menu-slide {
   background-color: #382001;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
+}
+
+.menu-wrapper_cs .menu {
+  padding-top: 25px !important;
 }
 
 .menu {
@@ -50,13 +60,21 @@ body {
 }
 
 .menu__item {
-  width: 15%;
+  width: 12%;
   display: inline-block;
   position: relative;
   vertical-align: top;
   text-align: center;
   font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+.menu__item_small {
+  width: 10%;
+}
+
+.menu__item_big {
+  width: 14%;
 }
 
 .margin-top {
@@ -102,6 +120,14 @@ body {
   }
 }
 
+.header_small {
+  height: 110px !important;
+}
+
+.header_cs {
+  height: 80px !important;
+}
+
 .slide-wrapper {
   position: relative;
   width: 80%;
@@ -128,7 +154,7 @@ body {
 .slideshow__title_orange h1 {
   font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.6em;
   margin-top: 0;
   line-height: 1em;
   margin-bottom: 25px;
@@ -274,6 +300,35 @@ body {
   padding: 50px 0;
   vertical-align: middle;
   text-align: center;
+}
+
+.teambuilding {
+  color: #fff;
+  padding: 20px 0;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #43464b;
+}
+
+.teambuilding img {
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+  margin-bottom: 15px;
+}
+
+.teambuilding_form {
+  background-color: #232323;
+  padding: 15px 0;
+}
+
+.teambuilding_form .select-dropdown {
+  padding-left: 10px !important;
+  opacity: 0.6;
+}
+
+.teambuilding_form .caret {
+  color: #cccccc !important;
 }
 
 .contact-info {
@@ -552,7 +607,7 @@ footer.page-footer {
   padding: 5px;
   font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   @media #{$medium-and-up} {
     font-size: 28px;
   }
@@ -624,4 +679,16 @@ footer.page-footer {
 
 .side-nav a {
   text-transform: capitalize;
+}
+
+.review-placeholder {
+  margin: 15px auto 0 auto;
+  width: 175px;
+}
+
+.anchor {
+  display: block;
+  height: 80px; /*same height as header*/
+  margin-top: -80px; /*same height as header*/
+  visibility: hidden;
 }

@@ -59,288 +59,11 @@
 </a>
 <div class="header">
     <div class="menu-wrapper">
-        <a href="#" data-activates="mobile-menu" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
-        <div class="menu hide-on-med-and-down" role="navigation">
-            <div class="menu__item">
-                <a href="#" scrollTo="about">
-                    <span class="inset">
-                        <img alt="puzzle logo" width="31" src="img/logo.png" />
-                    </span>
-                    <span style="margin-top: -2px;" class="menu__text hide-on-small-and-down">
-                        <?php
-                            if (isset($languages[$language]['menu']['about'])) {
-                                echo $languages[$language]['menu']['about'];
-                            }
-                        ?>
-                    </span>
-                </a>
-            </div>
-            <div class="menu__item">
-                <a href="#" scrollTo="room-row">
-                    <span class="inset">
-                        <i class="fa fa-building"></i>
-                    </span>
-                    <span class="menu__text hide-on-small-and-down">
-                        <?php
-                            if (isset($languages[$language]['menu']['rooms'])) {
-                                echo $languages[$language]['menu']['rooms'];
-                            }
-                        ?>
-                    </span>
-                </a>
-            </div>
-            <div class="menu__item">
-                <a href="#" scrollTo="price-row">
-                    <span class="inset">
-                        <i class="fa fa-money"></i>
-                    </span>
-                    <span class="menu__text hide-on-small-and-down">
-                        <?php
-                            if (isset($languages[$language]['menu']['prices'])) {
-                                echo $languages[$language]['menu']['prices'];
-                            }
-                        ?>
-                    </span>
-                </a>
-            </div>
-            <div class="menu__item">
-                <a class="no-prevent" href="booking.html">
-                    <span class="inset">
-                        <i class="fa fa-calendar"></i>
-                    </span>
-                    <span class="menu__text hide-on-small-and-down">
-                        <?php
-                            if (isset($languages[$language]['menu']['booking'])) {
-                                echo $languages[$language]['menu']['booking'];
-                            }
-                        ?>
-                    </span>
-                </a>
-            </div>
-            <div class="menu__item">
-                <a href="#" scrollTo="faq">
-                    <span class="inset">
-                        <i class="fa fa-comments"></i>
-                    </span>
-                    <span class="menu__text hide-on-small-and-down">
-                        <?php
-                            if (isset($languages[$language]['menu']['faq'])) {
-                                echo $languages[$language]['menu']['faq'];
-                            }
-                        ?>
-                    </span>
-                </a>
-            </div>
-            <div class="menu__item">
-                <a href="#" scrollTo="contact">
-                    <span class="inset">
-                        <i class="fa fa-envelope"></i>
-                    </span>
-                    <span class="menu__text hide-on-small-and-down">
-                       <?php
-                           if (isset($languages[$language]['menu']['contact'])) {
-                               echo $languages[$language]['menu']['contact'];
-                           }
-                       ?>
-                    </span>
-                </a>
-            </div>
-        </div>
-        <ul class="side-nav" id="mobile-menu">
-            <li>
-                <a href="#" scrollTo="about">
-                    <?php
-                    if (isset($languages[$language]['menu']['about'])) {
-                        echo $languages[$language]['menu']['about'];
-                    }
-                    ?>
-                </a>
-            </li>
-            <li>
-                <a href="#" scrollTo="room-row">
-                    <?php
-                    if (isset($languages[$language]['menu']['rooms'])) {
-                        echo $languages[$language]['menu']['rooms'];
-                    }
-                    ?>
-                </a>
-            </li>
-            <li>
-                <a href="#" scrollTo="price-row">
-                    <?php
-                    if (isset($languages[$language]['menu']['prices'])) {
-                        echo $languages[$language]['menu']['prices'];
-                    }
-                    ?>
-                </a>
-            </li>
-            <li>
-                <a class="no-prevent" href="booking.html">
-                    <?php
-                    if (isset($languages[$language]['menu']['booking'])) {
-                        echo $languages[$language]['menu']['booking'];
-                    }
-                    ?>
-                </a>
-            </li>
-            <li>
-                <a href="#" scrollTo="faq">
-                    <?php
-                    if (isset($languages[$language]['menu']['faq'])) {
-                        echo $languages[$language]['menu']['faq'];
-                    }
-                    ?>
-                </a>
-            </li>
-            <li>
-                <a href="#" scrollTo="contact">
-                    <?php
-                    if (isset($languages[$language]['menu']['contact'])) {
-                        echo $languages[$language]['menu']['contact'];
-                    }
-                    ?>
-                </a>
-            </li>
-        </ul>
+        <?php include 'partials/menu.php' ; ?>
     </div>
-    <div class="slider">
-        <ul class="slides">
-            <li>
-                <img alt="escape room gent puzzle game" class="slide-img" src="img/bg.jpg?bla">
-                <div class="slide-wrapper">
-                    <div class="slideshow__item slideshow__title slideshow__title_orange">
-                        <h1>PUZZLE ESCAPEROOMS <?php echo $languages[$language]['trivial']['ghent']; ?></h1>
-                    </div>
-                    <div class="slideshow__item slideshow__title slideshow__title_white">
-                        <?php
-                            if (isset($languages[$language]['slogans']['slogan1'])) {
-                                echo $languages[$language]['slogans']['slogan1'];
-                            }
-                        ?>
-                    </div>
-                    <a class="fff" href="booking.html">
-                        <div class="pricebox2">
-                            <div class="subbox2">
-                               THE RUSSIAN LAB
-                            </div>
-                            <div class="subbox3">
-                                <?php
-                                    if (isset($languages[$language]['menu']['book_now'])) {
-                                        echo $languages[$language]['menu']['book_now'];
-                                    }
-                                ?>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <img alt="escape room ghent team building" src="img/bg2.jpg?bla">
-                <div class="caption center-align margin-top">
-                    <span class="big-title">
-                       <?php
-                           if (isset($languages[$language]['slogans']['slogan2'])) {
-                               echo $languages[$language]['slogans']['slogan2'];
-                           }
-                       ?>
-                    </span>
-                    <a class="fff" href="booking.html">
-                        <div class="pricebox2">
-                            <div class="subbox2">
-                                THE RUSSIAN LAB
-                            </div>
-                            <div class="subbox3">
-                                <?php
-                                    if (isset($languages[$language]['menu']['book_now'])) {
-                                        echo $languages[$language]['menu']['book_now'];
-                                    }
-                                ?>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <img alt="escape room gent puzzle game" class="slide-img" src="img/bg3.jpg?bla">
-                <div class="slide-wrapper margin-top">
-                    <div class="slideshow__item slideshow__title slideshow__title_white">
-                        <?php
-                        if (isset($languages[$language]['slogans']['slogan3'])) {
-                            echo $languages[$language]['slogans']['slogan3'];
-                        }
-                        ?>
-                    </div>
-                    <a class="fff" href="booking.html">
-                        <div class="pricebox2">
-                            <div class="subbox2">
-                                THE RUSSIAN LAB
-                            </div>
-                            <div class="subbox3">
-                                <?php
-                                if (isset($languages[$language]['menu']['book_now'])) {
-                                    echo $languages[$language]['menu']['book_now'];
-                                }
-                                ?>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <img alt="escape room ghent team building" src="img/bg4.jpg?bla">
-                <div class="caption center-align margin-top">
-                    <span class="big-title">
-                       <?php
-                           if (isset($languages[$language]['slogans']['slogan4'])) {
-                               echo $languages[$language]['slogans']['slogan4'];
-                           }
-                       ?>
-                    </span>
-                    <a class="fff" href="booking.html">
-                        <div class="pricebox2">
-                            <div class="subbox2">
-                                THE RUSSIAN LAB
-                            </div>
-                            <div class="subbox3">
-                                <?php
-                                    if (isset($languages[$language]['menu']['book_now'])) {
-                                        echo $languages[$language]['menu']['book_now'];
-                                    }
-                                ?>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <img alt="escape room ghent team building" src="img/bg5.jpg?bla">
-                <div class="caption center-align margin-top">
-                    <span class="big-title">
-                       <?php
-                           if (isset($languages[$language]['slogans']['slogan5'])) {
-                               echo $languages[$language]['slogans']['slogan5'];
-                           }
-                       ?>
-                    </span>
-                    <a class="fff" href="booking.html">
-                        <div class="pricebox2">
-                            <div class="subbox2">
-                                THE RUSSIAN LAB
-                            </div>
-                            <div class="subbox3">
-                                <?php
-                                    if (isset($languages[$language]['menu']['book_now'])) {
-                                        echo $languages[$language]['menu']['book_now'];
-                                    }
-                                ?>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-        </ul>
-    </div>
+    <?php include 'partials/slider.php'; ?>
 </div>
+<span class="anchor" id="about"></span>
 <div class="container about">
     <div class="section">
         <!--   Icon Section   -->
@@ -433,6 +156,7 @@
         </div>
     </div>
 </div>
+<span class="anchor" id="rooms"></span>
 <div class="rooms">
     <div class="container">
         <div class="row room-row">
@@ -477,6 +201,7 @@
                 <div class="progress">
                     <div class="determinate" style="width: 25%"></div>
                 </div>
+
             </div>
             <div class="room room_right col m12 l6">
                 <div class="video-container">
@@ -486,6 +211,7 @@
         </div>
     </div>
 </div>
+<span class="anchor" id="prices"></span>
 <div class="prices">
     <div class="container">
         <div class="row price-row">
@@ -686,6 +412,7 @@
         </div>
     </div>
 </div>
+<span class="anchor" id="faq"></span>
 <div class="container faq">
     <div class="section">
         <!--   Icon Section   -->
@@ -794,6 +521,7 @@
         </div>
     </div>
 </div>
+<span class="anchor" id="contact"></span>
 <div class="contact contact-info">
     <div class="container">
         <div class="section">
@@ -837,7 +565,6 @@
         </div>
     </div>
 </div>
-
 <div class="contact-social">
     <div class="row">
         <a target="_blank" href="https://www.facebook.com/PuzzleEscaperooms/"
@@ -914,6 +641,14 @@
 </div>
 <div id="google-map"></div>
 
+<!--<div class="review-placeholder">
+    <div id="egb-review">
+        <h1><a href="http://www.escapegamesbelgium.be/games/puzzle-gent​">Puzzle Gent</a></h1>
+        <p><a href="http://escapegamesbelgium.be">Escapegamesbelgium</a></p>
+    </div>
+</div>-->
+
+
 <footer class="page-footer orange">
     <div class="footer-copyright">
         <div class="center container">
@@ -934,6 +669,10 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script src="js/bin/materialize.min.js"></script>
+<!--<script src="https://escapegamesbelgium.be/js/review.js"></script>
+<script>
+    egb.initialize(document.getElementById('egb-review'), 27);
+</script>-->
 <script src="js/init.js"></script>
 
 </body>
