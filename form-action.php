@@ -23,7 +23,7 @@ if (!empty($_POST['name']))
 {
 	mail($to, $subject, $message, $headers);
 }
-header('location:index.html');
+header('location:index.php');
 
 
 ?>

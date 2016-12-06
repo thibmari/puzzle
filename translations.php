@@ -6,6 +6,10 @@ $languageArray = explode('/', getenv('REQUEST_URI'));
 $arrayLength   = count($languageArray);
 $language      = $languageArray[$arrayLength - 1];
 
+if(!empty($_GET['lang'])) {
+    $language = $_GET['lang'];
+}
+
 if ($language !== 'nl') {
     $language = 'en';
     $newL = 'nl';

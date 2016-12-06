@@ -3,12 +3,15 @@ en:
       about: about
       rooms: rooms
       prices: prices
+      gifts: gift
       booking: booking
+      packages: Escape & Eat
       faq: faq
       contact: contact
       book_now: BOOK NOW
   trivial:
       persons: persons
+      uren: Hours
       mail: Drop us a mail
       location: You can find us at
       call: Call us, we don't bite
@@ -20,7 +23,7 @@ en:
       gift: Bestel hier een een super origineel <span class="my-yellow">cadeau</span>.
   slogans:
       slogan1: The challenge escape in one hour from our escaperooms!
-      slogan2: Arrange a team from 2 to 6 persons, and game up!!
+      slogan2: Arrange a team from 2 to 7 persons, and game up!!
       slogan3: Are you with more then 7 people? No problem! Contact us for a custom offer!
       slogan4: Custom teambuilding! Get more info at <a href="mailto:escape@puzzle.gent?Subject=Teambuilding" target="_top">escape@puzzle.gent</a>
       slogan5: Bachelor Party! Get more info at <a href="mailto:escape@puzzle.gent?Subject=Teambuilding" target="_top">escape@puzzle.gent</a>
@@ -69,13 +72,34 @@ en:
       faq5:
         question: Is there a language barrier?
         answer: Our Escaperoom is designed in English for an international audience. There is no other specific language required for breaking the codes and solving the puzzles.
+  teambuilding:
+        start: <h2> Companies <span class="my-yellow">Teambuilding</span></h2> <h5>What?</h5> <p>An escape room is a space wherein you are locked with your team for 60 minutes. Here, you’ll get challenged to escape as quickly as possible without any instructions! The Escape Rooms are all designed adherent to a theme and each one has its own backstory. You’ll find the story-teasers listed <a href="index.php#rooms">here</a>. </p> <h5>Why?</h5><p>The two most important factors to take on this challenge and succeed are communication and cooperation. The Puzzle escape rooms stimulates and enhance these skills by using the different personalities and mindsets in your group. Puzzle challenges teams to think logically, illogically & ‘Out of the box’ </p> <h5>Who?</h5><p>The game can be played with up to 7 individuals per room. There’s no intensive physical exertion necessary. The escape rooms were designed with all age groups in mind, from 16 to 99 years old.</p>
+        einde: <h2>Priced<span class="my-yellow"> precisely!</span></h2><p>Puzzle offers different options for these teambuilding activities to be satisfyingly complete. These options shall be listed below. At the end of the page you’ll be able to select your personalised offer!</p><h5>Puzzle Meeting Room</h5><p>Use our conference room for your own conference, workshop, brainstorming session or business update.</p><p>Puzzle provides a space of 50m2  with all necessities included":" Projection screen, sound, wifi, flipcharts, writing material, post its, etc... If your team requires anything else please just state it alongside the booking and we’ll make sure it’ll be there. Varying lunch formulae are available at the venue. The meeting room is available Tuesday to Friday from 9am to 6pm. If desired, please feel free to list this option in your booking request. </p><h5>Escape & Eat</h5><p>Puzzle works in cooperation alongside a series of nearby restaurants in the neighbourhood.  If you wish to, we could link a brunch, lunch, teatime or dinner to your escape-game. The restaurants we work in cooperation with are":"</p><p></p><p>Small & Tall, Franz Gustav, Il Mezzogiorno, Multatuli & De Stokerij</p><p>These are all at a short walking distance from Puzzle. They’ve all got their own formulae listed in the offers. If desired, please feel free to list this option in your booking request</p><h5>Escape & Analyse</h5><p>As an additional option Puzzle offers the cooperation and guidance of a psychiatrist who shall analyse your group dynamics and confers with you regarding several teams phases. The positive elements of the team will be extensively presented. The price is dependant on the number of individuals, we only can divulge that once we know the quantity of participants. If desired, please feel free to list this option in your booking request.</p><h5>Apero after the game or meeting</h5><p>Puzzle offers several options for after the game or meeting to relax after a fun and exciting teambuilding day, for €5 per person we offer":" Cava, Champagne, Fingerfood, etc...</p><p>If desired, please feel free to list this option in your booking request</p>
+        form:
+          company: Company
+          playdate: Desired reservation date
+          remarks: Remarks
+  gift:
+    title: Order your <span class="my-yellow">gift coupon!</span>
+    coupons: Giftcards
+  gifts:
+    intro:
+      title: Escape & Eat! <span class="my-yellow">Packages</span>
+      title2: General information
+      p1: *Please ensure to reserve at least 3 days in advance via mail - escape @puzzle.gent
+      p2: Required information you need to include in your email
+      p3: The timeslot you wish to book. The number of participants, the restaurant of your choice & desired formula for each individual . Your name, email-address & phone number.
+      p4: Please note, are dependant on the chosen restaurant's availability. The combo-reservation will be available after we have received confirmation from your chosen restaurant. All payments are to be made to Puzzle.
+      p5: If your group wishes to make a booking on short notice such as a same-day booking, then please call +32 478 93 63 03. We'll go through all possible venues & time slots together to see what’s still available.
 
 nl:
   menu:
       about: over
       rooms: kamers
       prices: prijzen
+      gifts: cadeau
       booking: boeken
+      packages: Escape & Eat
       faq: faq
       contact: contact
       book_now: BOEK NU
@@ -89,6 +113,7 @@ nl:
       vraag: Hier kan je jouw vraag stellen
       submit: Verzenden
       ghent: Gent
+      uren: Openingsuren
   slogans:
       slogan1: De uitdaging, binnen het uur ontsnappen uit onze escaperooms!
       slogan2: Stel een team samen van 2 tot 7 personen en ga de uitdaging aan!
@@ -140,5 +165,22 @@ nl:
         faq5:
           question: Is er een taalgrens?
           answer: Onze escaperooms zijn ontworpen in het Engels voor een internationaal publiek. Er is geen andere taal nodig voor het breken van de codes en het oplossen van alle puzzels.
-
-
+  teambuilding:
+        start: <h2> Bedrijfs <span class="my-yellow">Teambuilding</span></h2> <h5>Wat?</h5> <p>Een escape room is een ruimte waarin je wordt opgesloten met jouw team  in een kamer voor 60 minuten.  Hier worden jullie uitgedaagd om zo snel mogelijk ontsnappen  zonder enige instructies!   De kamer is ingericht volgens een thema en iedere kamer heeft een heel eigen verhaal. De verschillende kamers vind je <a href="index.php#rooms">hier</a>. </p> <h5>Waarom?</h5><p>De twee belangrijkste factoren om deze Escape-uitdaging tot een goed einde te brengen is samenwerking en communicatie.  De Puzzle escape rooms stimuleren deze factoren door ervoor te zorgen dat verschillende persoonlijkheden in de groep nodig zijn. Puzzle daagt teams uit om logisch, onlogisch en  'out of the box' te denken. </p> <h5>Wie?</h5><p>Het spel kan gespeeld worden tot 7 personen per kamer.  Er zijn geen fysieke inspanningen nodig. De escape rooms zijn ontworpen voor alle leeftijden vanaf 16jaar tem 99jaar. </p>
+        einde: <h2>Prijs <span class="my-yellow">op maat!</span></h2><p>Puzzle biedt verschillende opties om deze teambuildingactiviteit te volmaken.  Alle prijzen kunt u hier terugvinden.  Download PDF  Hieronder vindt u deze opties terug.  Vraag onderaan deze pagina uw op maat gemaakte offerte! Puzzle voorziet een ruimte van 50m2  met alle toebehoren incl":" projectie, scherm, geluid, wifi, flipcharts, schrijfmateriaal, post its, ... Indien er nog andere materialen gewenst worden, zorgen we ervoor dat we het in huis halen.   Verschillende lunch formules zijn ter plaatse mogelijk.   De meeting room is beschikbaar van dinsdag tem vrijdag van 9u tot 18u. Indien gewenst, meld dit op uw offerte aanvraag. </p><h5>Escape & Eat</h5><p>  Puzzle werkt samen met dichtgelegen restauranten in de buurt. Indien gewenst kunnen wij een brunch, lunch, vieruurtje of diner koppelen aan een escapegame.  De restauranten die we aanbieden zijn":"  Small & Tall, Franz Gustav, Il Mezzogiorno, Multatuli & De Stokerij.  Deze liggen op wandelafstand van Puzzle. Indien gewenst, meld uw keuze op uw offerte aanvraag. </p> <h5>Escape & Analyse</h5><p>Als extra optie biedt Puzzle een samenwerking aan met een psycholoog die jullie groepsdynamiek analyseert en achteraf verschillende teamfases bespreekt. De positieve elementen van het team worden hier uitgebreid aangekaart. De prijs is afhankelijk van het aantal personen. Dit kunnen we u pas geven als we het aantal deelnemers weten. Indien gewenst, meld dit op uw offerte aanvraag. </p> <h5>Apero na het spel of de meeting</h5><p>Puzzle biedt verschillende opties aan om na het spel of de meeting gezellig uit te bollen na een leuke en spannende teambuildingsdag. Voor 5€ pp bieden wij cava, champagne, fingerfood, ... aan. Indien gewenst, meld dit op uw offerte aanvraag. </p>
+        form:
+          company: Bedrijf
+          playdate: Gewenste speeldatum
+          remarks: Opmerkingen
+  gift:
+      title: Bestel nu je <span class="my-yellow">cadeaubon!</span>
+      coupons: cadeaubonnen
+  gifts:
+    intro:
+      title: Escape & Eat! <span class="my-yellow">Packages</span>
+      title2: Algemeen
+      p1: Alle reservaties dienen minimum 3 dagen op voorhand aangevraagd te worden via mail - escape@puzzle.gent.  
+      p2: Wat hebben nodig van u
+      p3: Het gewenste uur van de escapegame . Het aantal deelnemers , het gekozen restaurant + formule pp . Uw naam, emailadres en telefoonnummer.
+      p4: Alle aanvragen zijn afhankelijk van de beschikbaarheid van de gekozen restauranten. De combo-aanvraag is pas gereserveerd na bevestiging van Puzzle.
+      p5: Indien u de dag zelf nog wenst te genieten van deze combo, bel dan +32 478 93 63 03 en wij gaan na wat nog mogelijk is.

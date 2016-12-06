@@ -1,5 +1,5 @@
 body {
-  background-color: #382001;
+  background-color: #232323;
   color: #fff;
 }
 
@@ -29,12 +29,19 @@ body {
 
 .menu-wrapper_cs {
   top: -15px !important;
-  background-color: #382001;
-  height: 95px;
+  background-color: #232323;
+  height: 65px;
+  @media #{$large-and-up} {
+    height: 95px !important;
+  }
+}
+
+.menu-wrapper_cs .material-icons {
+  margin-top: 25px;
 }
 
 .menu-slide {
-  background-color: #382001;
+  background-color: #232323;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -125,7 +132,10 @@ body {
 }
 
 .header_cs {
-  height: 80px !important;
+  height: 50px !important;
+  @media #{$large-and-up} {
+    height: 80px !important;
+  }
 }
 
 .slide-wrapper {
@@ -151,7 +161,7 @@ body {
   text-align: center;
 }
 
-.slideshow__title_orange h1 {
+h1 {
   font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 2.6em;
@@ -250,7 +260,8 @@ body {
   }
 }
 
-.room {
+.room,
+.l-align {
   width: 100%;
   text-align: center;
   @media #{$medium-and-up} {
@@ -267,7 +278,12 @@ body {
 }
 
 .rooms {
-  background-color: #232323;
+  background-color: #4c4c4c;
+  padding-bottom: 10px;
+}
+
+.faq {
+  background-color: #4c4c4c;
 }
 
 .overlay h2,
@@ -302,13 +318,33 @@ body {
   text-align: center;
 }
 
-.teambuilding {
+.teambuilding,
+.gifts {
   color: #fff;
   padding: 20px 0;
   vertical-align: middle;
   text-align: center;
   background-color: #43464b;
 }
+
+.gifts .row {
+  padding-left: 10%;
+}
+
+.cs-margin {
+  @media #{$large-and-up} {
+    margin-right: -7%;
+  }
+}
+
+.gifts img {
+  width: 80%;
+  margin-top: 15px;
+  @media #{$large-and-up} {
+    margin-left: -20%;
+  }
+}
+
 
 .teambuilding img {
   width: 30%;
@@ -340,8 +376,40 @@ body {
 }
 
 footer.page-footer {
-  padding-top: 0;
+  padding-top: 15px;
   color: #fff;
+  clear: both;
+  margin-top: 10px;
+}
+
+.footer-copyright {
+  background-color: #ffcc00 !important;
+}
+
+.footer-copyright a {
+  text-transform: capitalize;
+  color: #000;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.footer-copyright .col {
+  margin-left: 10%;
+  text-align: center;
+  @media #{$medium-and-up} {
+    text-align: left;
+  }
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright li {
+  margin-bottom: -20px;
+  color: #000;
 }
 
 .contact-info h5 {
@@ -683,7 +751,21 @@ footer.page-footer {
 
 .review-placeholder {
   margin: 15px auto 0 auto;
+  width: 338px;
+}
+
+.review-placeholder div:last-child {
+  float: left;
   width: 175px;
+}
+
+.TA_excellent {
+  width: 275px;
+}
+
+.widEXC {
+  height: 182px !important;
+  margin: 0 10px 0 0 !important;
 }
 
 .anchor {
@@ -691,4 +773,9 @@ footer.page-footer {
   height: 80px; /*same height as header*/
   margin-top: -80px; /*same height as header*/
   visibility: hidden;
+}
+
+footer.eat-footer {
+  padding-top: 0;
+  margin-top: 0;
 }

@@ -11,12 +11,4 @@ RewriteRule ^$ http://%{HTTP_HOST}%{REQUEST_URI}en [L,R=301]
 RewriteCond %{HTTP:Accept-Language} ^nl [NC]
 RewriteRule ^$ http://%{HTTP_HOST}%{REQUEST_URI}nl [L,R=301]
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
-
 RewriteRule ^(en|nl)/?$ index.php?lang=$1 [QSA,NC,L]
-
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
-

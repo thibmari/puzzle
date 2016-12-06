@@ -47,7 +47,7 @@ include 'translations.php';
     </div>
 </a>
 
-<a href="teambuilding.php?lang=<?php echo $newL; ?>">
+<a href="gifts.php?lang=<?php echo $newL; ?>">
     <div class="languages">
         <?php
         if ($language == 'nl') {
@@ -68,79 +68,49 @@ include 'translations.php';
 <div class="teambuilding">
     <div class="container">
         <div class="col s12 m12">
-            <?php
-            if (isset($languages[$language]['teambuilding']['start'])) {
-                echo $languages[$language]['teambuilding']['start'];
-            }
-            ?>
-            <img src="img/teambuilding1.jpg" alt="teambuilding pic" />
-            <img src="img/teambuilding2.jpg" alt="teambuilding pic" />
-            <img src="img/teambuilding3.jpg" alt="teambuilding pic" />
-            <?php
-            if (isset($languages[$language]['teambuilding']['einde'])) {
-                echo $languages[$language]['teambuilding']['einde'];
-            }
-            ?>
+            <h2>
+                <?php
+                if (isset($languages[$language]['gift']['title'])) {
+                    echo $languages[$language]['gift']['title'];
+                }
+                ?>
+            </h2>
+            <img src="img/gift1.jpg" alt="cadeaubon pic" />
+            <img src="img/gift3.jpg" alt="cadeaubon pic 2" />
+            <img src="img/gift2.jpg" alt="cadeaubon pic 3" />
+            <span>...</span>
         </div>
     </div>
 </div>
 <div class="teambuilding_form">
     <div class="container">
-        <form class="col s12 m12" action="teambuilding_form.php" method="post">
-                <div class="input-field col s12">
-                    <input required name="name" id="Name" type="text" class="validate">
-                    <label for="Name">
-                        <?php
-                        if (isset($languages[$language]['trivial']['name'])) {
-                            echo $languages[$language]['trivial']['name'];
-                        }
-                        ?>
-                    </label>
-                </div>
-                <div class="input-field col s12">
-                    <input required name="email" id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-field col s12">
-                    <input required name="company" id="company" type="text" class="validate">
-                    <label for="company">
-                        <?php
-                        if (isset($languages[$language]['teambuilding']['form']['company'])) {
-                            echo $languages[$language]['teambuilding']['form']['company'];
-                        }
-                        ?>
-                    </label>
-                </div>
-                <div class="input-field col s12">
-                    <input name="date" required type="date" class="datepicker">
-                    <label for="date">
-                        <?php
-                        if (isset($languages[$language]['teambuilding']['form']['playdate'])) {
-                            echo $languages[$language]['teambuilding']['form']['playdate'];
-                        }
-                        ?>
-                    </label>
-                </div>
-                <div class="input-field col s12">
-                    <select name="persons" id="persons" required>
-                        <option value="2">2p. teambuilding</option>
-                        <option value="3">3p. Teambuilding</option>
-                        <option value="4">4p. teambuilding</option>
-                        <option value="5">5p. teambuilding</option>
-                        <option value="6">6p. teambuilding</option>
-                        <option value="7">7p. teambuilding</option>
-                    </select>
-                </div>
-                <div class="input-field col s12">
-                    <textarea name="remarks" id="remarks" class="materialize-textarea"></textarea>
-                    <label for="remarks">
-                        <?php
-                        if (isset($languages[$language]['teambuilding']['form']['remarks'])) {
-                            echo $languages[$language]['teambuilding']['form']['remarks'];
-                        }
-                        ?>
-                    </label>
-                </div>
+        <form class="col s12 m12" action="gift_form.php" method="post">
+            <div class="input-field col s12">
+                <input required name="name" id="Name" type="text" class="validate">
+                <label for="Name">
+                    <?php
+                    if (isset($languages[$language]['trivial']['name'])) {
+                        echo $languages[$language]['trivial']['name'];
+                    }
+                    ?>
+                </label>
+            </div>
+            <div class="input-field col s12">
+                <input required name="email" id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="input-field col s12">
+                <select name="coupons" id="coupons" required>
+                    <option value="1">1 cadeaubon</option>
+                    <option value="2">2 cadeaubonnen</option>
+                    <option value="3">3 cadeaubonnen</option>
+                    <option value="4">4 cadeaubonnen</option>
+                    <option value="5">5 cadeaubonnen</option>
+                    <option value="6">6 cadeaubonnen</option>
+                </select>
+            </div>
+
             <button class="btn waves-effect waves-light" type="submit" name="action">
                 <?php
                 if (isset($languages[$language]['trivial']['submit'])) {

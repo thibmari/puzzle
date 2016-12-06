@@ -413,113 +413,116 @@
     </div>
 </div>
 <span class="anchor" id="faq"></span>
-<div class="container faq">
-    <div class="section">
-        <!--   Icon Section   -->
-        <div class="row">
-            <div class="col s12 m6 center-on-small-only">
-                <?php
-                if (isset($languages[$language]['faq']['title'])) {
-                    echo $languages[$language]['faq']['title'];
-                }
-                ?>
-            </div>
-            <div class="col s12 m6">
-                <ul class="collapsible" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">question_answer</i>
-                            <?php
-                            if (isset($languages[$language]['faq']['faq1']['question'])) {
-                                echo $languages[$language]['faq']['faq1']['question'];
-                            }
-                            ?>
-                        </div>
-                        <div class="collapsible-body">
-                            <p>
+<div class="faq">
+    <div class="container">
+        <div class="section">
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m6 center-on-small-only">
+                    <?php
+                    if (isset($languages[$language]['faq']['title'])) {
+                        echo $languages[$language]['faq']['title'];
+                    }
+                    ?>
+                </div>
+                <div class="col s12 m6">
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">question_answer</i>
                                 <?php
-                                if (isset($languages[$language]['faq']['faq1']['answer'])) {
-                                    echo $languages[$language]['faq']['faq1']['answer'];
+                                if (isset($languages[$language]['faq']['faq1']['question'])) {
+                                    echo $languages[$language]['faq']['faq1']['question'];
                                 }
                                 ?>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">question_answer</i>
-                            <?php
-                            if (isset($languages[$language]['faq']['faq2']['question'])) {
-                                echo $languages[$language]['faq']['faq2']['question'];
-                            }
-                            ?>
-                        </div>
-                        <div class="collapsible-body">
-                            <p>
+                            </div>
+                            <div class="collapsible-body">
+                                <p>
+                                    <?php
+                                    if (isset($languages[$language]['faq']['faq1']['answer'])) {
+                                        echo $languages[$language]['faq']['faq1']['answer'];
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">question_answer</i>
                                 <?php
-                                if (isset($languages[$language]['faq']['faq2']['answer'])) {
-                                    echo $languages[$language]['faq']['faq2']['answer'];
+                                if (isset($languages[$language]['faq']['faq2']['question'])) {
+                                    echo $languages[$language]['faq']['faq2']['question'];
                                 }
                                 ?>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">question_answer</i>
-                            <?php
-                            if (isset($languages[$language]['faq']['faq3']['question'])) {
-                                echo $languages[$language]['faq']['faq3']['question'];
-                            }
-                            ?>
-                        </div>
-                        <div class="collapsible-body">
-                            <p>
+                            </div>
+                            <div class="collapsible-body">
+                                <p>
+                                    <?php
+                                    if (isset($languages[$language]['faq']['faq2']['answer'])) {
+                                        echo $languages[$language]['faq']['faq2']['answer'];
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">question_answer</i>
                                 <?php
-                                if (isset($languages[$language]['faq']['faq3']['answer'])) {
-                                    echo $languages[$language]['faq']['faq3']['answer'];
+                                if (isset($languages[$language]['faq']['faq3']['question'])) {
+                                    echo $languages[$language]['faq']['faq3']['question'];
                                 }
                                 ?>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">question_answer</i>
-                            <?php
-                            if (isset($languages[$language]['faq']['faq4']['question'])) {
-                                echo $languages[$language]['faq']['faq4']['question'];
-                            }
-                            ?>
-                        </div>
-                        <div class="collapsible-body">
-                            <p>
+                            </div>
+                            <div class="collapsible-body">
+                                <p>
+                                    <?php
+                                    if (isset($languages[$language]['faq']['faq3']['answer'])) {
+                                        echo $languages[$language]['faq']['faq3']['answer'];
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">question_answer</i>
                                 <?php
-                                if (isset($languages[$language]['faq']['faq4']['answer'])) {
-                                    echo $languages[$language]['faq']['faq4']['answer'];
+                                if (isset($languages[$language]['faq']['faq4']['question'])) {
+                                    echo $languages[$language]['faq']['faq4']['question'];
                                 }
                                 ?>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">question_answer</i>
-                            <?php
-                            if (isset($languages[$language]['faq']['faq5']['question'])) {
-                                echo $languages[$language]['faq']['faq5']['question'];
-                            }
-                            ?>
-                        </div>
-                        <div class="collapsible-body">
-                            <p>
+                            </div>
+                            <div class="collapsible-body">
+                                <p>
+                                    <?php
+                                    if (isset($languages[$language]['faq']['faq4']['answer'])) {
+                                        echo $languages[$language]['faq']['faq4']['answer'];
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">question_answer</i>
                                 <?php
-                                if (isset($languages[$language]['faq']['faq5']['answer'])) {
-                                    echo $languages[$language]['faq']['faq5']['answer'];
+                                if (isset($languages[$language]['faq']['faq5']['question'])) {
+                                    echo $languages[$language]['faq']['faq5']['question'];
                                 }
                                 ?>
-                            </p>
-                        </div>
-                    </li>
-                </ul>
+                            </div>
+                            <div class="collapsible-body">
+                                <p>
+                                    <?php
+                                    if (isset($languages[$language]['faq']['faq5']['answer'])) {
+                                        echo $languages[$language]['faq']['faq5']['answer'];
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 <span class="anchor" id="contact"></span>
 <div class="contact contact-info">
@@ -600,7 +603,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="move-links material-icons prefix">account_circle</i>
-                    <input name="name" id="Name" type="text" class="validate">
+                    <input required name="name" id="Name" type="text" class="validate">
                     <label for="Name">
                         <?php
                         if (isset($languages[$language]['trivial']['name'])) {
@@ -611,7 +614,7 @@
                 </div>
                 <div class="input-field col s12">
                     <i class="material-icons prefix">email_circle</i>
-                    <input name="email" id="email" type="email" class="validate">
+                    <input required name="email" id="email" type="email" class="validate">
                     <label for="email">Email</label>
                 </div>
             </div>
@@ -641,22 +644,23 @@
 </div>
 <div id="google-map"></div>
 
-<!--<div class="review-placeholder">
+<div class="review-placeholder">
+    <div id="TA_excellent540" class="TA_excellent">
+        <ul id="g1CKh3" class="TA_links Kdu7pbz">
+            <li id="X04hsyhnEhf" class="VAksHZbl5w7G">
+                <a target="_blank" href="https://www.tripadvisor.nl/"><img src="https://static.tacdn.com/img2/widget/tripadvisor_logo_115x18.gif" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+            </li>
+        </ul>
+    </div>
     <div id="egb-review">
         <h1><a href="http://www.escapegamesbelgium.be/games/puzzle-gent​">Puzzle Gent</a></h1>
         <p><a href="http://escapegamesbelgium.be">Escapegamesbelgium</a></p>
     </div>
-</div>-->
+</div>
 
 
-<footer class="page-footer orange">
-    <div class="footer-copyright">
-        <div class="center container">
-            <h2>
-                Puzzle - Live Escape Rooms in <?php echo $languages[$language]['trivial']['ghent']; ?> - BE0817944778
-            </h2>
-        </div>
-    </div>
+<footer class="page-footer">
+    <?php include 'partials/footer.php' ; ?>
 </footer>
 
 <a href="#" class="scrollToTop">
@@ -669,10 +673,11 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script src="js/bin/materialize.min.js"></script>
-<!--<script src="https://escapegamesbelgium.be/js/review.js"></script>
+<script src="https://escapegamesbelgium.be/js/review.js"></script>
 <script>
     egb.initialize(document.getElementById('egb-review'), 27);
-</script>-->
+</script>
+<script src="https://www.jscache.com/wejs?wtype=excellent&amp;uniq=540&amp;locationId=10063770&amp;lang=nl&amp;display_version=2"></script>
 <script src="js/init.js"></script>
 
 </body>

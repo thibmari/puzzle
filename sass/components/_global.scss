@@ -305,14 +305,14 @@ ul.staggered-list li {
 // Footer
 footer.page-footer {
   padding-top: 20px;
-  background-color: $footer-bg-color;
+  background-color:#232323;
 
   .footer-copyright {
     overflow: hidden;
-    height: 50px;
+
     line-height: 50px;
-    color: rgba(255,255,255,.8);
-    background-color: #382001;
+    color: rgba(255,255,255,1.8);
+    background-color: #232323;
     @extend .light;
   }
 }
